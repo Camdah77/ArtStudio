@@ -25,28 +25,40 @@ body {
         width: 100%;
         display: flex;     
         justify-content: space-between;
-        align-items: baseline;
-         }
+                }
 
 /*Logotype*/
 #Logotype   {
     float:left;
-    padding-top: 30px;
-}
+            }
+
+#Logotype , #menu  {
+    line-height: 90px;
+                   }
 
 /*menu navbar no bullets*/
 #menu li {
-    color: #ffffff;
+    font-size: 110% ;
     float: right;
     margin-right: 30px;
     list-style-type: none;
-    letter-spacing: 2px;
-        }
- /*Link colors in navBar always white*/      
-#menu li > a:link, a:visited, a:hover 
-        { 
-            color: rgb(250, 252, 250);
-            text-decoration: none;
+    letter-spacing: 3px;
           }
-          
-       
+
+ /*Link colors in navBar white*/      
+#menu a 
+      { 
+            color: white;   
+            text-decoration: none;
+      }
+
+   /*Hover Link underline*/      
+#menu a:hover 
+    { 
+    border-bottom: 1 px solid  white ;
+    }
+
+.active 
+    {
+    border-bottom: 1px solid white;
+    }
