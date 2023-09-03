@@ -1,64 +1,81 @@
 /*Google fonts Merriweather */
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
 
-/*Font family  */
-body {
-    font-family: League Spartan, Merriweather, sans-serif;
-    font-weight: 300;
-    color: #030303;
-         }
 
 /*Margin & border */
+
 * {
     margin: 0;
     padding: 0;
     border: none;
-  }
+}
+
+/*Font family  */
+
+body {
+    font-family: League Spartan, Merriweather, sans-serif;
+    font-weight: 300;
+    background-color: #ffffff;
+    color: black;
+}
 
 /*Header */
-    header  {
-        font-family: League Spartan, sans-serif ;
-        background-color: black;
-        padding: 0 1rem;
-        position: fixed;
-        z-index: 99;
-        width: 100%;
-        display: flex;     
-        justify-content: space-between;
-                }
-
-/*Logotype*/
-#Logotype   {
-    float:left;
+header  {
+    font-family: League Spartan, sans-serif ;
+    background-color: black;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    display: flex;     
+    justify-content: space-between;
             }
 
-#Logotype , #menu  {
-    line-height: 90px;
-                   }
+/* headings and logo */
 
-/*menu navbar no bullets*/
+h1, h2 {
+    font-family: League Spartan, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+/* Logotype */
+#logo {
+    float: left;
+    font-size: 280%;
+   }
+
+/* navigation links */
+
+#menu{
+    font-size: 100%;
+    letter-spacing: 3px;
+}
+
 #menu li {
-    font-size: 110% ;
     float: right;
     margin-right: 30px;
     list-style-type: none;
-    letter-spacing: 3px;
-          }
+}
 
- /*Link colors in navBar white*/      
-#menu a 
-      { 
-            color: white;   
-            text-decoration: none;
-      }
+#checkbox {
+    display: none ;
+}
 
-   /*Hover Link underline*/      
-#menu a:hover 
-    { 
-    border-bottom: 1 px solid  white ;
-    }
 
-.active 
-    {
-    border-bottom: 1px solid white;
-    }
+#menu, #logo {
+    line-height: 75px;
+}
+
+/* Links always white */
+#menu a {
+    color: #ffffff;
+    text-decoration: none;
+        }
+#menu a:hover {
+    border-bottom: 1px solid #ffffff;
+}
+.active {
+    border-bottom: 1px solid ffffff;
+}

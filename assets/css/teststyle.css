@@ -1,0 +1,86 @@
+/*Google fonts Merriweather */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+
+/*Font family  */
+body {
+    font-family: League Spartan, Merriweather, sans-serif;
+    font-weight: 300;
+    color:black;
+    background-color: #ffffff;
+         }
+
+/*Margin & border */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+  }
+
+/*Header */
+    header  {
+        font-family: League Spartan, sans-serif ;
+        background-color: black;
+        padding: 0 1rem;
+        position: fixed;
+        z-index: 99;
+        width: 100%;
+        display: flex;     
+        justify-content: space-between;
+                }
+
+
+
+
+
+* {
+	-webkit-transition-property: all;
+	-webkit-transition-duration: .2s;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+	-moz-transition-property: all;
+  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+}
+
+body{
+  background:#1b1b2b;
+  padding:75px;
+  text-align:center;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1{
+  color:#c0c0c0;
+  font-weight:100;
+}
+
+.btn{
+  color:#999;
+  background:rgba(0, 0, 0, 0.5);
+  padding:10px 20px;
+  font-size:12px;
+  text-decoration:none;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+
+.btn:hover{
+  border:none;
+  background:rgba(0, 0, 0, 0.4);
+  background:#fff;
+  padding:20px 20px; #000;
+  color:#1b1b1b;
+}
+
+.footer{
+  font-size:8px;
+  color:#fff;
+  clear:both;
+  display:block;
+  letter-spacing:5px;
+  border:1px solid #fff;
+  padding:5px;
+  text-decoration:none;
+  width:210px;
+  margin:auto;
+  margin-top:400px;
+}
