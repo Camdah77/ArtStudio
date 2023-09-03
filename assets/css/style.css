@@ -14,10 +14,26 @@
 /*Header */
     header  {
         background-color: black;
-        display: block;     
+        z-index: 99;
+        width: 100%;
+        display: flex;     
+        justify-content: space-between;
+        align-items: baseline;
+        color: #ffffff;
             }
+
+/*Logotype*/
+#Logotype   {
+    float:left;
+    padding-top: 30px;
+}
+
 /*Font family  */
     body {
-    font-family: font-family: 'Merriweather', serif;
+    font-family: font-family: Merriweather, serif;
     font-weight: 300;
+         }
+
+#menu   {
+    color: :white;
         }
