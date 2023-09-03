@@ -1,8 +1,12 @@
 /*Google fonts Merriweather */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
 
-
-/*Google fonts Merriweather */
+/*Font family  */
+body {
+    font-family: League Spartan, Merriweather, sans-serif;
+    font-weight: 300;
+    color: #030303;
+         }
 
 /*Margin & border */
 * {
@@ -13,14 +17,16 @@
 
 /*Header */
     header  {
+        font-family: League Spartan, sans-serif ;
         background-color: black;
+        padding: 0 1rem;
+        position: fixed;
         z-index: 99;
         width: 100%;
         display: flex;     
         justify-content: space-between;
         align-items: baseline;
-        color: #ffffff;
-            }
+         }
 
 /*Logotype*/
 #Logotype   {
@@ -28,12 +34,19 @@
     padding-top: 30px;
 }
 
-/*Font family  */
-    body {
-    font-family: font-family: Merriweather, serif;
-    font-weight: 300;
-         }
-
-#menu   {
-    color: :white;
+/*menu navbar no bullets*/
+#menu li {
+    color: #ffffff;
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+    letter-spacing: 2px;
         }
+ /*Link colors in navBar always white*/      
+#menu li > a:link, a:visited, a:hover 
+        { 
+            color: rgb(250, 252, 250);
+            text-decoration: none;
+          }
+          
+       
