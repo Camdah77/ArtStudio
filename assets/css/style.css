@@ -10,11 +10,13 @@
     border: none;
 }
 
-/*Font family  */
+/*General font styling  */
 
 body {
     font-family: League Spartan, Merriweather, sans-serif;
-    font-weight: 300;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-color: #ffffff;
     color: black;
 }
@@ -48,18 +50,16 @@ h1, h2 {
     font-size: 280%;
    }
 
-/* navigation links */
+/* navigation links No bulletpoint */
 
 #menu{
     font-size: 110%;
     letter-spacing: 3px;
+    list-style-type: none; /*Bulletpoints :none */
    }
 
 #menu > li {
     margin-bottom: 1em;
-    float: right;
-    margin-right: 30px;
-    list-style-type: none; /*Bulletpoints :none */
 }
 
 #menu, #logo {
@@ -93,6 +93,10 @@ nav {
 
 /* Nav toggle checkbox */
 #nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
     display: none;
 }
 
@@ -103,6 +107,8 @@ nav {
 /*Main content*/
 
 main {
+    
+     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 100px;
     }
