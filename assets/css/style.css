@@ -151,7 +151,7 @@ footer {
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 79px;
+        margin-top: 120px;
     }
 }
 
@@ -160,4 +160,10 @@ footer {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
+    /* Main content */
+    main {
+    /* Push main content down to accommodate larger header */
+    margin-top: 120px;
+}
+
 }
