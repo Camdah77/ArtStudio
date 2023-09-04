@@ -25,6 +25,7 @@ body {
 header  {
     font-family: League Spartan, sans-serif ;
     background-color: black;
+    color: #ffffff;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -41,11 +42,10 @@ h1, h2 {
     font-family: League Spartan, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
-}
+  }
 
 /* Logotype */
-#logo {
+#Logotype {
     float: left;
     font-size: 280%;
    }
@@ -120,3 +120,33 @@ footer {
     width: 100%;
 }
 
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width:768px) {
+    /*Header */
+    nav {
+        display:block;
+        position:relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        };
+    
+        #menu   {
+        display: flex;
+                }
+    
+    #menu >li {
+        padding-left: 1rem;
+                }
+
+   .nav-toggle-label {
+    display: block;
+                } 
+    
+    /* Adjustment of logotype on tablets */
+     #logo {
+        margin-top: 80 px;
+     }
+
+            }
