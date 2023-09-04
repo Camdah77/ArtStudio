@@ -30,6 +30,7 @@ header  {
     display: flex;
     box-shadow: 0 2px 2px #3a3a3a   ;     
     justify-content: space-between;
+    align-items: baseline;
             }
 
 /* headings and logo */
@@ -50,21 +51,22 @@ h1, h2 {
 /* navigation links */
 
 #menu{
-    font-size: 100%;
+    font-size: 110%;
     letter-spacing: 3px;
-}
+   }
 
-#menu li {
+#menu > li {
+    margin-bottom: 1em;
     float: right;
     margin-right: 30px;
-    list-style-type: none;
+    list-style-type: none; /*Bulletpoints :none */
 }
 
 #menu, #logo {
     line-height: 75px;
 }
 
-/* Links always white */
+/* Links > color and underlines */
 #menu a {
     color: #ffffff;
     text-decoration: none;
@@ -74,5 +76,41 @@ h1, h2 {
     border-bottom: 1px solid #71d6e7;
 }
 .active {
-    border-bottom: 1px solid ffffff;
+    border-bottom: 2px solid #ffffff;
 }
+
+/* Nav style with dropdwon toggle */
+nav {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    left:0;     
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a; 
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle checkbox */
+#nav-toggle:checked~nav {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+/*Main content*/
+
+main {
+    flex: 1 0 auto;
+    margin-top: 100px;
+    }
+
+
+/*Footer*/
+footer {
+    background-color: black;
+    width: 100%;
+}
+
