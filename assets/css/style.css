@@ -124,24 +124,19 @@ main {
     transform: translate(-50%, -50%);
     box-shadow: 10px 5px 5px rgb(65, 64, 64);
     text-align: center;
-              
         }
-.textbox h1 {
-    color: rgb(252, 252, 252);
-    font-weight: 400;
-}
-.textbox h2 {
-    color: rgb(252, 252, 252);
-    font-weight: 200;
-}
 
-.textbox p {
-    color: rgb(252, 252, 252);
-    font-weight: 100;
-    font-style: italic;
-    margin-left: auto;
-    margin-right: auto;
-}
+ .textbox > h1 {
+            color: #ffffff;
+            font-size: 130%;
+            text-transform: uppercase;
+        }
+
+        .textbox > h2 {
+            color: #ffffff;
+            font-size: 80%;
+            text-transform: uppercase;
+        }
 
  /*Footer*/
 footer {
