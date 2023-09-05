@@ -108,9 +108,11 @@ main {
 
 /* Hero */	
 #hero {	
-    height: 230px;
+    height: 600px;
     width: 100%;	
-    }	
+    background: url("../assets/images/hero1.webp") no-repeat center center/cover;
+    position: relative;
+        }	
 
 #container {	
     /* Final rgba value sets the opacity so it is semi-transparent */	
@@ -119,15 +121,10 @@ main {
     margin-left: 0;
     margin-right: 0;
     align-items: center;
-    background-color:rgba(121, 115, 102, 0.6);	
+    background-color:rgba(121, 115, 102, 0.8);	
     justify-content: center;
-    
-     /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
-        }
-
-
-/*Footer*/
+}
+    /*Footer*/
 footer {
     background-color: black;
     width: 100%;
