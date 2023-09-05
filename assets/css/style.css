@@ -112,19 +112,19 @@ main {
     width: 100%;	
     }	
 
-#cover-text {	
+#container {	
     /* Final rgba value sets the opacity so it is semi-transparent */	
-    background-color:rgba(177, 110, 10, 0.6);	
-    position: absolute;
-    font-size: 100%;	
-    width: 50%;	
-    min-height: 100x;	
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    align-items: center;
+    background-color:rgba(121, 115, 102, 0.6);	
+    justify-content: center;
     
-
      /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 100px;
-    }
+        }
 
 
 /*Footer*/
@@ -158,7 +158,7 @@ footer {
 
     #logo {
         margin:0 auto;	
-        width: 200px;	
+        width: 240px;	
         top: 30px;;
     }
 
@@ -173,7 +173,8 @@ footer {
         width: 100%;	
     }    
 /* Cover text on larger device */	
-    #cover-text {	
+    #container {	
+        margin-top: 0;
         width: 300px;	
         right: 50px;	
     }	
@@ -196,5 +197,16 @@ footer {
     #hero {
         height: 900px;	
         width: 100%;	
-    }    
+    }  
+    
+    #logo {
+        margin:0 auto;	
+        width: 400px;	
+        top: 50px;
+    }
+    
+
 }
+
+
+
