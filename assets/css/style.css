@@ -1,6 +1,5 @@
 /*Google fonts Merriweather */
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600&display=swap');
 
 /*Margin & border */
 
@@ -13,7 +12,7 @@
 /*General font styling  */
 
 body {
-    font-family: League Spartan, Merriweather, sans-serif;
+    font-family: 'Alegreya', serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -23,7 +22,7 @@ body {
 
 /*Header */
 #banner  {
-    font-family: League Spartan, sans-serif ;
+    font-family: 'Alegreya', sans-serif;
     background-color: black;
     color: #ffffff;
     position: fixed;
@@ -104,31 +103,66 @@ main {
  /* Make main element take up any surplus space to push footer down */	
  flex: 1 0 auto;	
  margin: top 30px;	
-}
+    }
 
-/* Hero */	
+
 #hero {	
     height: 600px;
-    width: 100%;	
+    width: 101%;	
     background: url("../images/hero1.webp") no-repeat center center/cover;
     position: relative;
         }	
 
-#container {	
-    /* Final rgba value sets the opacity so it is semi-transparent */	
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0;
-    margin-right: 0;
-    align-items: center;
-    background-color:rgba(121, 115, 102, 0.8);	
-    justify-content: center;
-}
-    /*Footer*/
-footer {
-    background-color: black;
-    width: 100%;
+ /* Textbox on top of her image */	
+.textbox {	
+    height: 70%;
+    width:70%;
+    background-color:rgba(255, 255, 255, 0.2); 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 5px 5px rgb(65, 64, 64);
+    text-align: center;
+              
         }
+.textbox h1 {
+    color: rgb(252, 252, 252);
+    font-weight: 400;
+}
+.textbox h2 {
+    color: rgb(252, 252, 252);
+    font-weight: 200;
+}
+
+.textbox p {
+    color: rgb(252, 252, 252);
+    font-weight: 100;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ /*Footer*/
+footer {
+      background-color: black;
+    width: 100%;
+    }
+
+ /*icons for social media*/   
+    #social-networks {
+        text-align: center;
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+    }
+    #social-networks i {
+        font-size: 160%;
+        padding: 5%;
+        color: #f5f3f3;
+    }
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) 
 {
