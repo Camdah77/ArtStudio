@@ -31,13 +31,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    height: 10%;
+    height: 14vh;
 }
 
 #logo   {
     float:left;
-    width: 100px;
+    width: 50vw;
     margin-top: 20%;
+    margin-left: 2vw;
     box-shadow: 0 2px 2px #64A0A0;
 }
 
@@ -58,13 +59,13 @@ header {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
-    width: 100%;
-    left: 0;
+    background-color: rgba(245, 248, 248, 0.7);
+    width: 50%;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
+    right: 5%;
+    color: black;
 }
 
 /* Nav toggle */
@@ -80,6 +81,17 @@ nav {
     font-size: 2rem;
 }
 
+i.fa-solid.fa-bars {
+    margin-right: 5vw;
+}
+
+ul > a:link, a:visited, a:active {
+    color: rgb(3, 3, 3);
+  }
+ul > a:hover {
+    color: #64A0A0;
+  }
+
 /*Main content*/
 main {
     /* Enlarge main element to push footer down*/
@@ -93,17 +105,17 @@ main {
 /* Hero img-section */
 #hero {
     width: 101%;
-    height: 600px;
+    height: 61vh;
     background: url("../images/hero1.webp") no-repeat center center/cover;
     position: relative;
     }
 
 .textbox {
-    margin-top: 150px;
-    margin-left: 30px;
-    width: 110px;
+    margin-top: 11vh;
+    margin-left: 7vw;
+    width: 21vh;
     height: fit-content;
-    background-color: rgba(199, 168, 168, 0.6);
+    background-color: rgb(100, 160, 160, 0.4);
     color: #ffffff;
 }
 .freeyourmind {
@@ -165,11 +177,8 @@ footer {
     }
 
     #logo {
-        margin-top: 40px;
-        margin-left: 30px;
-        margin: 0 auto;
-        width: 240px;
-        top: 30px;
+        width: 25vw;
+           
         }
     .textbox {
         height: fit-content;
