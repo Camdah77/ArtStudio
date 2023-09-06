@@ -34,10 +34,13 @@ body {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    height:128px;
+    ;
    }
 
 /* Logotype */
 #logo {
+    margin-top: 20px;
     margin-left: 10px;
     display: block;
     float: left;
@@ -79,8 +82,7 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
-    top: 100%;
-  }
+   }
 
 /* Nav toggle checkbox */
 #nav-toggle:checked~nav {
@@ -112,6 +114,14 @@ main {
     background: url("../images/hero1.webp") no-repeat center center/cover;
     position: relative;
     }
+
+.textbox {
+    margin-top: 300px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: rgb(165,42,42, 0.8);
+
+}
 
 /*Footer*/
 footer {
@@ -159,6 +169,7 @@ footer {
     }
 
     #logo {
+        margin-top: 40px;
         margin-left: 30px;
         margin: 0 auto;
         width: 240px;
@@ -204,6 +215,7 @@ footer {
     }
 
     #logo {
+        margin-top: 60px;
         margin: 0 auto;
         width: 400px;
         top: 50px;
