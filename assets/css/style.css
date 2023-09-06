@@ -35,8 +35,7 @@ body {
     align-items: center;
     flex-direction: column;
     height:128px;
-    ;
-   }
+    }
 
 /* Logotype */
 #logo {
@@ -46,8 +45,7 @@ body {
     float: left;
      }
 
-/* navigation links No bulletpoint */
-
+     /* navigation links No bulletpoint */
 #menu {
     font-size: 110%;
     letter-spacing: 3px;
@@ -77,7 +75,7 @@ body {
 nav {
     position: absolute;
     background-color: black;
-    width: 100%;
+    width: fit-content;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -116,11 +114,24 @@ main {
     }
 
 .textbox {
-    margin-top: 300px;
+    margin-top: 150px;
     margin-left: 30px;
-    margin-right: 30px;
-    background-color: rgb(165,42,42, 0.8);
-
+    width: 110px;
+    height: fit-content;
+    background-color: rgba(199, 168, 168, 0.6);
+    color: #ffffff;
+}
+.freeyourmind {
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.join   {
+    margin-left: 30px;
+    width: 110px;
+    margin-top: 20px;
+    background-color: rgba(199, 168, 168, 0.6);
+    color: #ffffff;
 }
 
 /*Footer*/
@@ -175,7 +186,14 @@ footer {
         width: 240px;
         top: 30px;
         }
-
+    .textbox {
+        height: fit-content;
+        width: 200px;
+        margin-top: 100px;
+        margin-left: 30px;
+        margin-right: 400px;
+      
+        }
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
@@ -220,6 +238,13 @@ footer {
         width: 400px;
         top: 50px;
     }
-
+    .textbox {
+        height: 300px;
+        width: 200px;
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-right: 400px;
+      
+        }
 
 }
