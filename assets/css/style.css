@@ -21,68 +21,53 @@ body {
    }
 
 /*Header */
-#banner {
-    font-family: 'Alegreya', sans-serif;
-    background-color: black;
-    color: #ffffff;
+header {
+    background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    height:128px;
-    }
+    justify-content: space-between;
+    align-items: baseline;
+    height: 10%;
+}
 
-/* Logotype */
-#logo {
-    margin-top: 20px;
-    margin-left: 10px;
-    display: block;
-    float: left;
-     }
+#logo   {
+    float:left;
+    width: 100px;
+    margin-top: 20%;
+    box-shadow: 0 2px 2px #64A0A0;
+}
 
-     /* navigation links No bulletpoint */
 #menu {
     font-size: 110%;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     list-style-type: none;
-    }
+}
 
-#menu>li {
+#menu > li {
     margin-bottom: 1em;
 }
 
-/* Links > color and underlines */
-#menu a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-#menu a:hover {
-    color: #71d6e7;
-    border-bottom: 1px solid #71d6e7;
-}
-
 .active {
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 1px solid #3a3a3a;
 }
 
-/* Nav style with dropdwon toggle */
+/* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: black;
-    width: fit-content;
+    background-color: #ffffff;
+    width: 100%;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
-   }
+    top: 100%;
+}
 
-/* Nav toggle checkbox */
+/* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -93,7 +78,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-                }
+}
 
 /*Main content*/
 main {
