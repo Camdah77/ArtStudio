@@ -1,5 +1,5 @@
 /*Google fonts Merriweather */
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,500&display=swap');
 
 /*Margin & border */
 
@@ -10,18 +10,18 @@
 }
 
 /*General font styling  */
-
 body {
-    font-family: 'Alegreya', serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
-   }
+    font-family: 'Montserrat', sans-serif;
+}
 
-/*Header */
+/* Header */
 header {
+    font-family: 'Montserrat', sans-serif;
     background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
@@ -31,22 +31,27 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    height: 14vh;
+    height: 10vh;
 }
 
-#logotyp {
-    background: url("../assets/images/aslogga.png"); 
-    float:left;
-    width: 50vw;
-    margin-top: 20%;
-    margin-left: 2vw;
-    box-shadow: 0 2px 2px #64A0A0;
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#logotype {
+    width: 57vw;
+    margin-top: 3vh;
+    margin-left: 0vh;
+    box-shadow: 5px 5px 5px grey;
+    
 }
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
+    margin-top: 4vh;
 }
 
 #menu > li {
@@ -60,13 +65,14 @@ header {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: rgba(245, 248, 248, 0.7);
-    width: 50%;
+    background-color: rgb(100,160,160, 0.6);
+    width: 59vw;
+    right: 0;
     padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
-    right: 5%;
-    color: black;
+    color: white;
 }
 
 /* Nav toggle */
@@ -80,82 +86,46 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    margin-top: 2vh;
+    margin-right: 1vh;
 }
 
-i.fa-solid.fa-bars {
-    margin-right: 5vw;
-}
-
-ul > a:link, a:visited, a:active {
-    color: rgb(3, 3, 3);
-  }
-ul > a:hover {
-    color: #64A0A0;
-  }
-
-/*Main content*/
+/* Main content */
 main {
-    /* Enlarge main element to push footer down*/
+    background-color: rgb(255, 255, 255);
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 47px;
-    /* Enable flex properties for child elements */
-    display: flex;
-    flex-direction: column;
-    }
-/* Hero img-section */
-#hero {
-    width: 101%;
-    height: 61vh;
-    background: url("../images/hero1.webp") no-repeat center center/cover;
-    position: relative;
-    }
-
-.textbox {
-    margin-top: 11vh;
-    margin-left: 7vw;
-    width: 21vh;
-    height: fit-content;
-    background-color: rgb(100, 160, 160, 0.4);
-    color: #ffffff;
-}
-.freeyourmind {
-    color: #ffffff;
-    text-align: center;
-    padding-bottom: 10px;
-}
-.join   {
-    margin-left: 30px;
-    width: 110px;
-    margin-top: 20px;
-    background-color: rgba(199, 168, 168, 0.6);
-    color: #ffffff;
 }
 
-/*Footer*/
+/* Footer */
 footer {
-    background-color: black;
+    background-color: #64A0A0;
+    height: 10vh;
     width: 100%;
 }
 
 /*icons for social media*/
 #social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+    color: #ffffff;
+    display: inline;
 }
 
-#social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #f5f3f3;
+.social-networks li{
+    display: inline;
 }
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #f8f5f5;
+}
+
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
     /* Header */
     nav {
         display: block;
@@ -169,7 +139,7 @@ footer {
         display: flex;
     }
 
-    #menu>li {
+    #menu > li {
         padding-left: 1rem;
     }
 
@@ -178,68 +148,20 @@ footer {
     }
 
     #logo {
-        width: 25vw;
-           
-        }
-    .textbox {
-        height: fit-content;
-        width: 200px;
-        margin-top: 100px;
-        margin-left: 30px;
-        margin-right: 400px;
-      
-        }
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 120px;
-    }
-
-    /* Hero */
-    #hero {
-        height: 600px;
-        width: 100%;
-    }
-
-    /* Cover text on larger device */
-    #container {
-        margin-top: 0;
-        width: 300px;
-        right: 50px;
+        margin-top: 79px;
     }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover {
+    #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
-
-    /* Main content */
-    main {
-        /* Push main content down to accommodate larger header */
-        margin-top: 120px;
-    }
-
-    /* Hero img bigger on large device*/
-    #hero {
-        height: 900px;
-        width: 100%;
-    }
-
-    #logo {
-        margin-top: 60px;
-        margin: 0 auto;
-        width: 400px;
-        top: 50px;
-    }
-    .textbox {
-        height: 300px;
-        width: 200px;
-        margin-top: 50px;
-        margin-left: 30px;
-        margin-right: 400px;
-      
-        }
-
 }
