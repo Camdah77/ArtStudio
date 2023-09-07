@@ -34,7 +34,8 @@ header {
     height: 14vh;
 }
 
-#logo   {
+#logotyp {
+    background: url("../assets/images/aslogga.png"); 
     float:left;
     width: 50vw;
     margin-top: 20%;
