@@ -64,6 +64,7 @@ header a {
 nav {
     position: absolute;
     background-color: rgb(100,160,160, 0.6);
+    margin-top: 12vh;
     width: 59vw;
     right: 0;
     padding: 0 1rem;
@@ -98,8 +99,9 @@ main {
 
 /* Footer */
 footer{
-    height: 150px;
+    height: 12vh;
     background-color: rgb(100,160,160);
+    
 }
 
 .social-networks{
@@ -143,6 +145,9 @@ footer{
     .nav-toggle-label {
         display: none;
     }
+    #menu a:hover{
+        border-bottom: 2px solid rgb(100,160,160);
+        font-weight:bold;
 
     /* Main content */
     main {
@@ -156,7 +161,10 @@ footer{
 @media screen and (min-width: 992px) {
 
  #menu a:hover{
-        border-bottom: 1px solid #3a3a3a;
+        border-bottom: 2px solid rgb(100,160,160);
                  }
-                               
-}
+footer{
+       height: 150px;
+       background-color: rgb(100,160,160);                             
+        }
+    }   }
