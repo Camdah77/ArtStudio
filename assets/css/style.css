@@ -15,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #3a3a3a;
+    color: #010101;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -30,7 +30,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    height: 10vh;
 }
 
 header a {
@@ -57,13 +56,12 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid rgb(100,160,160);
 }
 
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: rgb(100,160,160, 0.6);
     margin-top: 12vh;
     width: 59vw;
     right: 0;
@@ -89,12 +87,18 @@ nav {
     margin-right: 1vh;
 }
 
+/* Main content */
+main {
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    margin-top: -129px;
+}
+
 #heroimage {
-    margin-top: -10vh;
     height: 600px;
     width: 100%;
     background: url(../images/hero1.webp) no-repeat center center;
-    background-size: 200%;
+    background-size: 100%;
 }
 
 /* Footer */
@@ -129,7 +133,6 @@ footer{
         width: fit-content;
         padding-right: 1rem;
         margin-top: 3vh;
-        background-color: #ffffff;
         color: black;
         font-size: 16px;
         }
@@ -146,8 +149,7 @@ footer{
         display: none;
     }
     #menu a:hover{
-        border-bottom: 2px solid rgb(100,160,160);
-        font-weight:bold;
+       font-weight:bold;
  
     #heroimage {
         margin-top: 15vh;
@@ -156,10 +158,10 @@ footer{
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
-#menu a:hover{
-        border-bottom: 2px solid rgb(100,160,160);
-                 }
- 
+#heroimage {
+        margin-top: 20vh;
+}        
+
 footer{
        height: 150px;
        background-color: rgb(100,160,160);                             
