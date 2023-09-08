@@ -39,12 +39,11 @@ header a {
 }
 
 #logotype {
-    width: 50vw;
+    width: 200px;
     margin-top: 3vh;
     margin-left: 0vh;
     box-shadow: 5px 5px 5px grey;
-    
-}
+    }
 
 #menu {
     font-size: x-large;
@@ -98,27 +97,24 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: #64A0A0;
-    height: 10vh;
-    width: 100%;
+footer{
+    height: 150px;
+    background-color: rgb(100,160,160);
 }
 
-/*icons for social media*/
-#social-networks{
+.social-networks{
     text-align: center;
-
 }
 
-#social-networks li{
+.social-networks li{
     display: inline;
 }
 
-#social-networks i{
-    font-size: 240%;
+.social-networks i{
+    font-size: 200%;
     margin: 1%;
     padding: 5%;
-    color: #fafafa;
+    color: #ffffff;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -134,8 +130,7 @@ footer {
         margin-top: 3vh;
         background-color: #ffffff;
         color: black;
-        
-    }
+        }
 
     #menu {
         display: flex;
@@ -154,11 +149,14 @@ footer {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
-}
+
+    }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover{
+
+ #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
-    }
+                 }
+                               
 }
