@@ -89,20 +89,19 @@ nav {
     margin-right: 1vh;
 }
 
-/* Main content */
-main {
-    background-color: rgb(255, 255, 255);
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
-    margin-top: 47px;
+#heroimage {
+    margin-top: -10vh;
+    height: 600px;
+    width: 100%;
+    background: url(../images/hero1.webp) no-repeat center center;
+    background-size: 200%;
 }
 
 /* Footer */
 footer{
     height: 12vh;
     background-color: rgb(100,160,160);
-    
-}
+    }
 
 .social-networks{
     text-align: center;
@@ -149,25 +148,21 @@ footer{
     #menu a:hover{
         border-bottom: 2px solid rgb(100,160,160);
         font-weight:bold;
-
-
-
-    /* Main content */
-    main {
-        /* Push main content down to accommodate larger header */
-        margin-top: 79px;
-    }
-
-    }
+ 
+    #heroimage {
+        margin-top: 15vh;
+}    
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
- #menu a:hover{
+#menu a:hover{
         border-bottom: 2px solid rgb(100,160,160);
                  }
+ 
 footer{
        height: 150px;
        background-color: rgb(100,160,160);                             
-        }
-    }   }
+       }
+
+    }   }}
