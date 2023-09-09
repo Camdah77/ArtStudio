@@ -170,10 +170,25 @@ footer{
     }
     #menu a:hover{
        font-weight:bold;
- 
+    }
+
     #heroimage {
         margin-top: 15vh;
-}    
+            }    
+
+.covertext {
+    top:32vh;
+        }
+  .covertext h1 {
+            color: #ffffff;
+            font-size: 1.8em;
+                }
+  .covertext h2 {
+            top: 40vh;
+            font-style: italic;
+            font-size: 1em;
+        }
+}
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
@@ -181,10 +196,15 @@ footer{
 #heroimage {
         margin-top: 20vh;
 }        
-
+.covertext {
+    top:60vh;
+    width: 40vh;
+    height: 40vh;
+        }
+  
 footer{
        height: 150px;
        background-color: rgb(100,160,160);                             
        }
 
-    }   }}
+    }  
