@@ -38,8 +38,9 @@ header a {
 
 #logotype {
     width: 200px;
-    margin-left: 20px;
+    margin-left: 15px;
     line-height: 75px;
+    box-shadow: 10px 10px 5px rgb(75, 72, 72);
 }
 
 #menu li {
@@ -70,7 +71,6 @@ nav {
     position: absolute;
     width: 50%;
     right: 0;
-    padding: 0 1rem;
     display: none;
     background-color: white;
     color: rgb(1, 1, 1);
@@ -108,7 +108,7 @@ main {
 #hero {
     height: 350px;
     width: auto;
-    background: url("../images/hero3.png") no-repeat center center/cover;
+    background: url("../images/hemo4.webp") no-repeat center center/cover;
     position: relative;
     text-align: center;
 }
@@ -133,6 +133,32 @@ main {
     font-size: 12px;
     font-style: italic;
     width: auto;
+    color: black;
+ }
+
+.talent {
+    margin-top: 10px;
+    display:flex;
+    width: 100%;
+    align-content: space-between;
+}
+
+.joinbutton {
+    margin-top: 2vh;
+    margin-right: 10vw;
+    width: 80px;
+    height: 80px;
+
+     }
+.talenttext {
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 7vw;
+    margin-right: 18vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 40%;
+    line-height: 3vh;
 }
 
 /*flexbox joinus */
@@ -141,12 +167,17 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 1vh;
      }
 
 h2 {
     text-align: center;
     width: 250px;
     height: fit-content;
+    color: black;
+    font-size: 14px;
+    margin-bottom: 25px;
+
     }
 
 .imgbox1 {
@@ -200,20 +231,22 @@ h2 {
     /* Header */
     nav {
         display: flex ;
-        flex-direction: row;
-        width: 518px;
-        margin-top: -38vh;
+        float: right;
         color: black;
         font-size: 16px;
         }
 
  #logotype {
             width: 250px;
-            margin-left: 1vh;
+            margin-left: 3vw;
         }
 
 #menu {
         display: flex;
+        float: left;
+        margin-left: 30px; 
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 
     #menu > li {
