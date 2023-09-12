@@ -24,7 +24,6 @@ header {
     display: flex;
     font-family: 'Montserrat', sans-serif;
     background-color: #ffffff;
-    padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -39,18 +38,27 @@ header a {
 
 #logotype {
     width: 200px;
-    margin-left: 1vh;
+    margin-left: 20px;
+    line-height: 75px;
 }
 
-#menu {
-    font-size: 18px;
-    letter-spacing: 3px;
+#menu li {
+    float: right;
     list-style-type: none;
-    margin-top: 40vh;
+    margin-right: 30px;
 }
 
-#menu > li {
-    margin-bottom: 1em;
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover{
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active{
+    border-bottom: 1px solid #3a3a3a;
 }
 
 .active {
@@ -60,11 +68,14 @@ header a {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    width: 59vw;
+    width: 50%;
     right: 0;
     padding: 0 1rem;
     display: none;
+    background-color: white;
     color: rgb(1, 1, 1);
+    margin-top: 204px;
+    line-height: 30px;
 }
 
 /* Nav toggle */
@@ -89,34 +100,39 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 100px;
-   }
+    margin-top: 47px;
+}
 
-.heroimage {
-    height: 400px;
-    width: 100%;
-    background-image: url(../images/hero3.webp);
+/* Hero section */
+
+#hero {
+    height: 350px;
+    width: auto;
+    background: url("../images/hero3.png") no-repeat center center/cover;
     position: relative;
-      }
+    text-align: center;
+}
 
-  .covertext {
+#cover-text {
     text-align: center;
     position: absolute;
-    top: 60%;
-    background-color: rgba(250, 249, 249, 0.6);
-    width: 200px;
-    height: 30%;
-    left: 25%;
-}
+    top: 54vh;
+    background-color: rgb(255, 255, 255, 0.6);
+    width: 229px;
+    height: fit-content;
+    left: 10%;
+    color: rgb(7, 7, 7);
+    letter-spacing: 3px;
+    margin-top: -140px;
+ }
 
-.covertext h1 {
-    color: #ffffff;
-    font-size: 1.2em;
-
+#cover-text h1 {
+    font-size: 18px;
 }
-.covertext h2 {
+#cover-text h2 {
+    font-size: 12px;
     font-style: italic;
-    font-size: 0.8em;
+    width: auto;
 }
 
 /*flexbox joinus */
@@ -211,32 +227,20 @@ h2 {
        font-weight:bold;
     }
 
- #heroimage {
-       top: 7vh;
-        height: 600px;
-            }    
+ /* Hero section */
 
-.covertext {
-    top: 13vh;
-    width:285px;
-
-        }
-  .covertext h1 {
-            color: #ffffff;
-            font-size: 1.8em;
-                }
-  .covertext h2 {
-            top: 40vh;
-            font-style: italic;
-            font-size: 1em;
-        }
+#hero {
+    height: 800px;
+    width: auto;
+    background: url("../images/hero1.webp") no-repeat center center/cover;
+    position: relative;
+    text-align: center;
 }
+
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
-#heroimage {
-        margin-top: 20vh;
 }        
 .covertext {
     text-align: center;
@@ -253,4 +257,4 @@ footer{
        }
 
     } 
-} 
+}
