@@ -121,43 +121,43 @@ main {
     font-size: 0.8em;
 }
 
-#joinus {   
-    position: relative;
-    background-color: rgb(1, 1, 1, 0.1);
-    width: 90%;
-    margin: 20px auto;
-}
+/*flexbox joinus */
+.container-joinus {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+     }
 
-#joinus h3 {
-    text-align: right;
+img {
+    width: 250px;
+    height: 250px;
 }
-
-#start h2 {
-    margin-bottom: 20px;
+h2 {
     text-align: center;
-    font-size: 280%;
-}
-
-#start-why >div,
-#benefits-mental>div {
-    line-height: 20px;
-    margin-bottom: 20px;
-}
-
-#start-how
-p {
-    padding: 0 20px;
-}
-
-#start-join
- hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
-}
-
-.whyimage {
-    width: 100%;
+    width: 250px;
+    height: fit-content;
     }
+
+.imgbox1 {
+    order:1;
+}
+.imgbox2 {
+    order:3;
+}
+.imgbox3 {
+    order:5;
+}
+.textbox1 {
+    order:2;
+}
+.textbox2 {
+    order:4;
+}
+.textbox3 {
+    order:6;
+}
+/*End of flexbox Join us */
 
 /* Footer */
 
