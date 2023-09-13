@@ -135,9 +135,6 @@ main {
     font-size: 12px;
     color: #ffffff;
 }
-
-
-
 .talent {
     margin-top: 10px;
     display:flex;
@@ -180,7 +177,6 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 4vh;
-    background-color: rgba(121, 118, 119, 0.5); 
      }
 
  .container-joinus >h2 {
@@ -188,7 +184,6 @@ main {
     width: 250px;
     height: fit-content;
     color: black;
-    font-size: 14px;
     margin-bottom: 25px;
     }
 
@@ -209,12 +204,15 @@ main {
 }
 .textbox1 {
     order:2;
+    font-size: 14px;
 }
 .textbox2 {
     order:4;
+    font-size: 14px;
 }
 .textbox3 {
     order:6;
+    font-size: 14px;
 }
 /*End of flexbox Join us */
 
@@ -254,16 +252,12 @@ main {
             margin-left: 3vw;
             }
 
-#cover-text >h2   {
-                width: 100%;
-                text-align: center;
-}
-
 #menu {
         display: flex;
         margin-left: -80px;
         margin-bottom: 20px;
         line-height: 25px;
+        margin-top: 5vh;
          }
 
 #menu > li {
@@ -280,7 +274,18 @@ main {
  /* Hero section */
 
 #cover-text  {
-    width: 100%;
+    width: 50%;
+    top: 22vh;
+}
+
+#cover-text >h2   {
+    text-align: center;
+    font-size: 26px;
+
+}
+#cover-text >h3   {
+    text-align: center;
+    font-size: 20px;
 }
 
 .joinbutton {
@@ -291,15 +296,87 @@ main {
 .talent >h3 {
     font-size: 18px;
     margin-top: 5vh;
+    margin-right: 3vw;
+    padding-right: 9vw;
 }    
 
-.container-joinus >h2 {
-        padding-top: 5vh;
-        font-size: 18px;
-        }
+.talent > p {
+    font-size: 16px;
+    font-style: italic;
+    margin-left: 7vw;
+    margin-right: -27vw;
+    margin-bottom: 3vh;
+    line-height: 3vh;
+    margin-top: 2vh;
+}
 
+/*joinus */
+.container-joinus {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4vh;
+    align-items: center;
+    }
+
+ .container-joinus >h2 {
+    text-align: center;
+    width: 250px;
+    height: fit-content;
+    color: black;
+    font-size: 14px;
+    margin-bottom: 25px;
+    }
+
+.imgbox1 {
+    width: 500px;
+    height: 500px;
+    order:1;
+}
+.imgbox2 {
+    width: 500px;
+    height: 500px;
+    order:3;
+}
+.imgbox3 {
+    width: 500px;
+    height: 500px;
+    order:5;
+}
+.textbox1 {
+    font-size: 30px;
+    order:2;
+    font-size: 18px;
+}
+.textbox2 {
+    order:4;
+    font-size: 18px;
+}
+.textbox3 {
+    order:6;
+    font-size: 18px;
+}
+
+}
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+
+    #menu {
+        display: flex;
+        margin-bottom: 20px;
+        line-height: 25px;
+        margin-top: 5vh;
+         }
+
+    
+    #cover-text  {
+        width: 25%;
+        top: 22vh;
+    }
+
+    .joinbutton {
+         margin-left: 6vw;
+  
+            }    
 
 footer{
        height: 150px;
@@ -329,6 +406,70 @@ footer{
  padding-bottom: 5vh;
  }
 
- 
+ /*joinus */
+.container-joinus {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    align-items: center;
+    gap: 100px;
+    margin: 0 auto;
+    max-width: 980px;
+       }
 
-}}
+.imgbox1 {
+    width: 380px;
+    height: 380px;
+    order:1;
+}
+.imgbox2 {
+    width: 380px;
+    height: 380px;
+    order:2;
+}
+.imgbox3 {
+    width: 380px;
+    height: 380px;
+    order:3;
+}
+.textbox1 {
+    order:4;
+    font-size: 26px;
+    text-align: center;
+}
+.textbox2 {
+    order:5;
+    font-size: 26px;
+    text-align: center;
+}
+.textbox3 {
+    order:6;
+    font-size: 26px;
+    text-align: center;
+}
+.talent >h3 {
+    align-items: center;
+    font-size: 18px;
+    margin-top: 5vh;
+    margin-right: 3vw;
+    padding-right: 9vw;
+}    
+
+.talent > p {
+    font-size: 24px;
+    font-style: italic;
+    margin-left: 12vw;
+    margin-bottom: 3vh;
+    line-height: 3vh;
+    margin-top: 2vh;
+}
+
+.talent >h3 {
+    font-size: 28px;
+    margin-top: 5vh;
+    }    
+
+.talent > p {
+    font-size: 16px;
+    font-style: italic;
+ }
+}   
