@@ -117,7 +117,7 @@ main {
 #hero {
     height: 700px;
     width: 100%;
-    background: url("../images/hemo4.webp") no-repeat center center/cover;
+    background: url("../images/heronew.webp") no-repeat center center/cover;
     position: relative;
     text-align: center;
     border-bottom: 6px double #64A0A0;
@@ -150,6 +150,7 @@ main {
     text-align: center;
     color: #64A0A0;
     text-decoration: dotted;
+    font-weight: bold;
 }
 
 /*flexbox joinus */
@@ -173,6 +174,46 @@ main {
      }
 
 /*End of flexbox Join us */
+
+/*About Camilla*/
+
+.container-Camilla {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(58, 58, 58, 0.6);
+    width: 100%;    
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.container-Camilla > h3 {
+    font-size: 16px;
+    font-style: italic;
+    color: #ffffff;
+    font-weight: bold;
+    padding-bottom: 4vh;
+    }
+.container-Camilla > img {
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 5px rgb(75, 72, 72);
+    }
+
+.container-Camilla >p {
+        margin-left: 1vw;
+        margin-right: 1vw;
+        font-size: 16px;
+        font-style: italic;
+        color: #ffffff;
+        font-weight: bold;
+            }
+ .container-Camilla >a {
+        margin-top: 2vh;
+         font-size: 16px;
+         font-style: italic;
+         color: #ffffff;
+                         }
 
 .social-networks{
     height: 12vh;
@@ -269,6 +310,42 @@ main {
     margin-top: 10vh;
     align-content: space-between;
        }
+
+/*About Camilla*/
+
+.container-Camilla {
+    display: flex;
+    flex-direction: row;    
+    gap: 10px;
+}
+
+.container-Camilla > h3 {
+    font-size: 16px;
+    font-style: italic;
+    color: #ffffff;
+    font-weight: bold;
+    padding-bottom: 4vh;
+    }
+.container-Camilla > img {
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 5px rgb(75, 72, 72);
+    }
+
+.container-Camilla >p {
+        margin-left: 1vw;
+        margin-right: 1vw;
+        font-size: 16px;
+        font-style: italic;
+        color: #ffffff;
+        font-weight: bold;
+            }
+ .container-Camilla >a {
+        margin-top: 2vh;
+         font-size: 16px;
+         font-style: italic;
+         color: #ffffff;
+                         }
 
 }
 /* Large devices (laptops and desktops, 992px and up) */
