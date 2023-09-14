@@ -177,44 +177,44 @@ main {
 
 /*About Camilla*/
 
-.container-Camilla {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: rgb(58, 58, 58, 0.6);
-    width: 100%;    
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+/*Slideshow - The animation is set to 20 seconds and as there are four images the animation delay is set at 5 seconds difference (eg 0s, 5s, 10s, 15s).*/
+
+#camillaart {
+    display: grid;
+   width: 100%;
 }
 
-.container-Camilla > h3 {
-    font-size: 16px;
-    font-style: italic;
-    color: #ffffff;
-    font-weight: bold;
-    padding-bottom: 4vh;
-    }
-.container-Camilla > img {
-    width: 200px;
-    height: 200px;
-    box-shadow: 10px 10px 5px rgb(75, 72, 72);
-    }
+.soldart {
+    grid-template-columns: 50% 50%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+ }
+ .camillaimg {
+    width: 500px;
+    height: 500px;
+}
 
-.container-Camilla >p {
-        margin-left: 1vw;
-        margin-right: 1vw;
-        font-size: 16px;
-        font-style: italic;
-        color: #ffffff;
-        font-weight: bold;
-            }
- .container-Camilla >a {
-        margin-top: 2vh;
-         font-size: 16px;
-         font-style: italic;
-         color: #ffffff;
-                         }
+.carousel {
+    width: 500px;
+    height: 500px;
+    overflow:hidden; 
+    position:relative; 
+}
+.carousel > img { 
+    position:absolute; 
+    animation:carousel  20s infinite; 
+    opacity:0; 
+    width: 500px;
+    height: 500px;
+}
 
+    @keyframes carousel {25%{opacity:1;} 40%{opacity:0;}}
+    .carousel img:nth-child(4){animation-delay:0s;}
+    .carousel img:nth-child(3){animation-delay:5s;}
+    .carousel img:nth-child(2){animation-delay:10s;}
+    .carousel img:nth-child(1){animation-delay:15s;}
+    
 .social-networks{
     height: 12vh;
     background-color: rgb(100,160,160);
@@ -311,43 +311,7 @@ main {
     align-content: space-between;
        }
 
-/*About Camilla*/
-
-.container-Camilla {
-    display: flex;
-    flex-direction: row;    
-    gap: 10px;
-}
-
-.container-Camilla > h3 {
-    font-size: 16px;
-    font-style: italic;
-    color: #ffffff;
-    font-weight: bold;
-    padding-bottom: 4vh;
     }
-.container-Camilla > img {
-    width: 200px;
-    height: 200px;
-    box-shadow: 10px 10px 5px rgb(75, 72, 72);
-    }
-
-.container-Camilla >p {
-        margin-left: 1vw;
-        margin-right: 1vw;
-        font-size: 16px;
-        font-style: italic;
-        color: #ffffff;
-        font-weight: bold;
-            }
- .container-Camilla >a {
-        margin-top: 2vh;
-         font-size: 16px;
-         font-style: italic;
-         color: #ffffff;
-                         }
-
-}
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 

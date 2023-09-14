@@ -12,13 +12,13 @@
     background-color: black;
  }
  .camillaimg {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
 }
 
 .carousel {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     overflow:hidden; 
     position:relative; 
 }
@@ -26,8 +26,9 @@
     position:absolute; 
     animation:carousel  20s infinite; 
     opacity:0; 
-    width: 600px; 
-    height: 600px;}
+    width: 500px;
+    height: 500px;
+}
 
     @keyframes carousel {25%{opacity:1;} 40%{opacity:0;}}
     .carousel img:nth-child(4){animation-delay:0s;}
