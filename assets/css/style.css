@@ -1,5 +1,5 @@
 /*Google fonts Merriweather */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,500&display=swap');
+@import url('https: fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,500&display=swap');
 
 /*Margin & border */
 
@@ -135,40 +135,11 @@ main {
     font-size: 12px;
     color: #ffffff;
 }
-.talent {
-    margin-top: 10px;
-    display:flex;
-    width: 100%;
-    margin-bottom: 10px;
-  
-  }
-
 .joinbutton {
-    margin-top: -7vh;
+    margin-top: 1vh;
     width: 150px;
     height: 150px;
        }
-
- .talent >h3 {
-    font-size:12px;
-    font-style: italic;
-    margin-left: 7vw;
-    margin-right: 4vw;
-    margin-top: 2vh;
-    margin-bottom: 3vh;
-    line-height: 3vh;
-    border-right: #010101 solid;
-}
-
-.talent >p {
-    font-size:12px;
-    font-style: italic;
-    margin-left: 7vw;
-    margin-right: 1vw;
-    margin-bottom: 3vh;
-    line-height: 3vh;
-    
-}
 
 /*flexbox joinus */
 .container-joinus {
@@ -190,28 +161,37 @@ main {
 .imgbox1 {
     width: 250px;
     height: 250px;
-    order:1;
+    order:3;
 }
 .imgbox2 {
     width: 250px;
     height: 250px;
-    order:3;
+    order:5;
 }
 .imgbox3 {
     width: 250px;
     height: 250px;
-    order:5;
+    order:7;
 }
 .textbox1 {
     order:2;
     font-size: 14px;
 }
 .textbox2 {
+    order:1;
+    font-size: 12px;
+    font-style: italic;
+}
+.textbox3 {
     order:4;
     font-size: 14px;
 }
-.textbox3 {
+.textbox4 {
     order:6;
+    font-size: 14px;
+}
+.textbox5 {
+    order:8;
     font-size: 14px;
 }
 /*End of flexbox Join us */
@@ -293,68 +273,75 @@ main {
         margin-right: 10vw;
         margin-bottom: 3vh;
             }    
-.talent >h3 {
-    font-size: 18px;
-    margin-top: 5vh;
-    margin-right: 3vw;
-    padding-right: 9vw;
-}    
-
-.talent > p {
-    font-size: 16px;
-    font-style: italic;
-    margin-left: 7vw;
-    margin-right: -27vw;
-    margin-bottom: 3vh;
-    line-height: 3vh;
-    margin-top: 2vh;
-}
-
-/*joinus */
+/*flexbox joinus */
 .container-joinus {
     display: flex;
     flex-direction: column;
-    padding-top: 4vh;
     align-items: center;
-    }
+    text-align: center;
+    margin: 0 auto;
+      }
 
  .container-joinus >h2 {
     text-align: center;
-    width: 250px;
+    width: 50%;
     height: fit-content;
     color: black;
-    font-size: 14px;
     margin-bottom: 25px;
+ 
     }
 
 .imgbox1 {
-    width: 500px;
-    height: 500px;
-    order:1;
-}
-.imgbox2 {
-    width: 500px;
-    height: 500px;
+    width: 50%;
+    height: fit-content;
     order:3;
 }
-.imgbox3 {
-    width: 500px;
-    height: 500px;
+.imgbox2 {
+    width: 50%;
+    height: fit-content;
     order:5;
 }
+.imgbox3 {
+    width: 50%;
+    height: fit-content;
+    order:7;
+}
 .textbox1 {
-    font-size: 30px;
+    width: 30%;
     order:2;
-    font-size: 18px;
+    font-size: 20px;
+    font-style: italic;
+    align-items: center;
 }
 .textbox2 {
-    order:4;
-    font-size: 18px;
+    width: 30%;
+    order:1;
+    font-size: 20px;
+    font-style: italic;
+    align-items: center;
 }
 .textbox3 {
-    order:6;
-    font-size: 18px;
+    width: 30%;
+    order:4;
+    font-size: 20px;
+    font-style: italic;
+    align-items: center;
 }
+.textbox4 {
+    width: 30%;
+    order:6;
+    font-size: 20px;
+    font-style: italic;
+    align-items: center;
+}
+.textbox5 {
+    width: 30%;
+    order:8;
+    font-size: 20px;
+    font-style: italic;
+    align-items: center;
+}
+/*End of flexbox Join us */
 
 }
 /* Large devices (laptops and desktops, 992px and up) */
@@ -389,87 +376,6 @@ footer{
         height: 200px;
         margin-right: 20vw;
         margin-bottom: 3vh;
-            }           
-
- .talent >h3 {
-        font-size: 20px;
-        margin-top: 5vh;
-        line-height:3vh ;
-    }          
-
- .talent {
-    margin-bottom: 10px;
-   padding-bottom: 5vh;
-}
-
- .container-joinus {  
- padding-bottom: 5vh;
- }
-
- /*joinus */
-.container-joinus {
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-    align-items: center;
-    gap: 100px;
-    margin: 0 auto;
-    max-width: 980px;
-       }
-
-.imgbox1 {
-    width: 380px;
-    height: 380px;
-    order:1;
-}
-.imgbox2 {
-    width: 380px;
-    height: 380px;
-    order:2;
-}
-.imgbox3 {
-    width: 380px;
-    height: 380px;
-    order:3;
-}
-.textbox1 {
-    order:4;
-    font-size: 26px;
-    text-align: center;
-}
-.textbox2 {
-    order:5;
-    font-size: 26px;
-    text-align: center;
-}
-.textbox3 {
-    order:6;
-    font-size: 26px;
-    text-align: center;
-}
-.talent >h3 {
-    align-items: center;
-    font-size: 18px;
-    margin-top: 5vh;
-    margin-right: 3vw;
-    padding-right: 9vw;
-}    
-
-.talent > p {
-    font-size: 24px;
-    font-style: italic;
-    margin-left: 12vw;
-    margin-bottom: 3vh;
-    line-height: 3vh;
-    margin-top: 2vh;
-}
-
-.talent >h3 {
-    font-size: 28px;
-    margin-top: 5vh;
-    }    
-
-.talent > p {
-    font-size: 16px;
-    font-style: italic;
- }
-}   
+            }       
+      
+} 
