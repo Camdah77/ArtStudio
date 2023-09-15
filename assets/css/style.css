@@ -172,7 +172,6 @@ main {
 /*End of flexbox Join us */
 
 /*About Camilla*/
-
 /*Slideshow - The animation is set to 20 seconds and as there are four images the animation delay is set at 5 seconds difference (eg 0s, 5s, 10s, 15s).*/
 
 #camillaart {
@@ -229,13 +228,14 @@ main {
     padding: 5%;
     color: #ffffff;
 }
-
+/*Formsection */
 .form-section {
     clear: left;
-    background: url("../images/hemo2.webp");
-    background-size: 50%;
+    background: url("../images/heroform.webp");
+    width: auto;
     background-position: center;
     height: 900px;
+    align-items: center;
 }
 
 .joinlogo {
@@ -243,7 +243,7 @@ main {
        height: 100px; 
        }
 .signup-form {
-    margin: 150px 10% 0 0;
+    margin: 80px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
@@ -268,7 +268,7 @@ main {
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: #F699cd;
 }
 
 .join-button {
@@ -277,16 +277,24 @@ main {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: #F699cd;
     color: #fafafa;
     display: block;
 }
 
 .join-button:hover {
     background-color: #fafafa;
-    color: #f16c6b;
+    color: #F699cd;
 }
 
+.minifaq {
+    background-color: #fff;
+    font-size: 12px;
+    width: 250px;
+    height: fit-content;
+    position: relative;
+    left: 50px;
+}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
