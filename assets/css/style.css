@@ -67,10 +67,6 @@ header a {
     border-bottom: 1px solid #3a3a3a;
 }
 
-.active {
-    border-bottom: 1px solid rgb(100,160,160);
-}
-
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
@@ -143,7 +139,7 @@ main {
     height: 150px;
        }
 
-.benefits {
+.concept {
     margin-top: 8vh;
     font-size: 14px;
     font-style: italic;
@@ -180,7 +176,7 @@ main {
 /*Slideshow - The animation is set to 20 seconds and as there are four images the animation delay is set at 5 seconds difference (eg 0s, 5s, 10s, 15s).*/
 
 #camillaart {
-    display: grid;
+   display: grid;
    width: 100%;
 }
 
@@ -189,15 +185,16 @@ main {
     display: flex;
     justify-content: center;
     background-color: black;
+    gap: 10vw;
  }
  .camillaimg {
-    width: 500px;
-    height: 500px;
+    width: 250px;
+    height: 250px;
 }
 
 .carousel {
-    width: 500px;
-    height: 500px;
+    width: 250px;
+    height: 250px;
     overflow:hidden; 
     position:relative; 
 }
@@ -205,8 +202,8 @@ main {
     position:absolute; 
     animation:carousel  20s infinite; 
     opacity:0; 
-    width: 500px;
-    height: 500px;
+    width: 250px;
+    height: 250px;
 }
 
     @keyframes carousel {25%{opacity:1;} 40%{opacity:0;}}
@@ -215,6 +212,7 @@ main {
     .carousel img:nth-child(2){animation-delay:10s;}
     .carousel img:nth-child(1){animation-delay:15s;}
     
+   
 .social-networks{
     height: 12vh;
     background-color: rgb(100,160,160);
@@ -291,7 +289,7 @@ main {
         margin-bottom: 3vh;
             }    
 
-.benefits {
+.concept {
                 margin-top: 4vh;
                 font-size: 20px;
                 color: #64A0A0;
@@ -327,12 +325,6 @@ main {
         width: 25%;
         top: 22vh;
     }
-
-    .joinbutton {
-         margin-left: 6vw;
-  
-            }    
-
  .joinbutton {
         margin-top: 1vh;
         width: 200px;
@@ -341,7 +333,7 @@ main {
         margin-bottom: 3vh;
             }    
 
-.benefits {
+.concept {
            margin-top: 6vh;
            font-size: 24px;
            color: #64A0A0;
@@ -350,21 +342,21 @@ main {
 
  /*flexbox joinus */
  .container-joinus >img  {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     align-items: center;
    box-shadow: 10px 10px 5px rgb(75, 72, 72);
                  }   
 
  .container-joinus {
     display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-    gap: 209px;
-    row-gap: 42px;
+    grid-template-columns: 25% 25% 25%;
+    gap: 150px;
+    row-gap: 30px;
     margin: 0 auto;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    margin-left: 22vw;
+
  } 
  
  footer{
@@ -372,3 +364,4 @@ main {
                background-color: rgb(100,160,160);                             
                         }
   } 
+ 
