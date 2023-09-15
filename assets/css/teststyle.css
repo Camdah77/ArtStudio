@@ -26,17 +26,34 @@
     transform: translate(-50%, -50%);
     padding: 2em;
     background: white;
+    align-items: center;
   }
-  .modal-window header {
-    font-weight: bold;
-  }
-  .modal-window h1 {
-    font-size: 150%;
+ 
+ .modal-window h1 {
+    background-color: #64A0A0;
+    color: white;
+    font-size: 18px;
     margin: 0 0 15px;
+    text-align: center;
   }
-  
+  .faq {
+    font-size: 14px;
+    font-style: italic;
+  }
+
+ .modal-window h2 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #64A0A0;
+     
+  }
+  .faqbutton{
+    width: 100px;
+    height: 100px;
+  }
+
   .modal-close {
-    color: #aaa;
+    color:#64A0A0;
     line-height: 50px;
     font-size: 80%;
     position: absolute;
@@ -47,7 +64,9 @@
     text-decoration: none;
   }
   .modal-close:hover {
-    color: black;
+    color:#64A0A0;
+    font-weight: bold
+    ;
   }
 
 

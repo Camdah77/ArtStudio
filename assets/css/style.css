@@ -287,14 +287,76 @@ main {
     color: #F699cd;
 }
 
-.minifaq {
-    background-color: #fff;
-    font-size: 12px;
-    width: 250px;
-    height: fit-content;
-    position: relative;
-    left: 50px;
-}
+.modal-window {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.25);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+  }
+  .modal-window:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .modal-window > div {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background: white;
+    align-items: center;
+  }
+ 
+ .modal-window h1 {
+    background-color: #64A0A0;
+    color: white;
+    font-size: 18px;
+    margin: 0 0 15px;
+    text-align: center;
+  }
+  .faq {
+    font-size: 14px;
+    font-style: italic;
+  }
+
+ .modal-window h2 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #64A0A0;
+     
+  }
+  .faqbutton{
+    width: 100px;
+    height: 100px;
+  }
+
+  .modal-close {
+    color:#64A0A0;
+    line-height: 50px;
+    font-size: 80%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 70px;
+    text-decoration: none;
+  }
+  .modal-close:hover {
+    color:#64A0A0;
+    font-weight: bold
+    ;
+  }
+
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
