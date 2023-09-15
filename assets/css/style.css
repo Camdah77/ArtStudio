@@ -242,30 +242,38 @@ main {
        width: 100px;
        height: 100px; 
        }
-.signup-form {
-    margin: 80px 10% 0 0;
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
-    padding: 30px;
-}
-
-.signup-form > h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-}
-
-.text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-}
+       .form-section {
+        clear: left;
+        background: url("../images/hemo4.webp");
+        background-size: cover;
+        background-position: center;
+        height: 900px;
+    }
+    
+    .signup-form {
+        margin: 150px 10% 0 0;
+        color: #fff;
+        background-color: rgba(60, 60, 60, 0.8);
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        padding: 9px;
+    }
+    
+    .signup-form > h2 {
+        color: #F699cd;
+        margin-bottom: 20px;
+    }
+    
+    .text-input {
+        background: transparent;
+        color: #fafafa;
+        width: 100%;
+        height: 25px;
+        margin: 5px 0 20px 0;
+        border: 1px solid #fafafa;
+        border-radius: 2px;
+    }
 
 .text-input:hover {
     border-color: #F699cd;
@@ -287,6 +295,13 @@ main {
     color: #F699cd;
 }
 
+.faqbutton {
+   width:100px;
+   height:100px;
+   margin-top: 15px;
+   margin-bottom: 2vh;
+  }
+
 .modal-window {
     position: fixed;
     background-color: rgba(255, 255, 255, 0.25);
@@ -306,7 +321,7 @@ main {
     pointer-events: auto;
   }
   .modal-window > div {
-    width: 400px;
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -314,6 +329,8 @@ main {
     padding: 2em;
     background: white;
     align-items: center;
+    color: #010101;
+    font-size: 14px;
   }
  
  .modal-window h1 {
@@ -332,28 +349,20 @@ main {
     font-size: 14px;
     font-weight: bold;
     color: #64A0A0;
-     
-  }
-  .faqbutton{
-    width: 100px;
-    height: 100px;
-  }
+ }
 
   .modal-close {
-    color:#64A0A0;
-    line-height: 50px;
-    font-size: 80%;
+    color:#000000;
+    font-size: 14px;
     position: absolute;
     right: 0;
-    text-align: center;
     top: 0;
     width: 70px;
     text-decoration: none;
   }
   .modal-close:hover {
     color:#64A0A0;
-    font-weight: bold
-    ;
+    font-weight: bold;
   }
 
 
