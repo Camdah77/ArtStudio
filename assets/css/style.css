@@ -172,7 +172,6 @@ main {
     font-style: italic;
     text-align: center;
     color: #64A0A0;
-    text-decoration: dotted;
     font-weight: bold;
 }
      .stepsartstudio {
@@ -311,9 +310,7 @@ footer{
 .faqbutton {
    width:100px;
    height:100px;
-   margin-top: 15px;
-   margin-bottom: 2vh;
-  }
+    }
 
 .modal-window {
     position: fixed;
@@ -383,13 +380,41 @@ footer{
      width: 50vw;
 }
   
-/*Photgallery on inspirationpage*/
+/*Photogallery on inspiration page*/
+.aboutgallery{
+    margin-left: 10vw;
+    width: 80%;
+    height: 400px;
+    margin-top: 20vh;
+    text-align: center;
+}
 
-  .main {
+.heading-all{
+    font-size:30px;
+    color: #64A0A0;
+    font-weight: bold;
+    padding-bottom: 2vh;
+    font-weight: bold;
+}
+.aboutgallery p{
+    font-size:16px;
+    font-style: italic;
+    padding-bottom: 2vh;
+}
+
+.aboutgallery img {
+    width: 100px;
+    height: 100px;
+}
+ #gallery {
+    margin-top: 47px;
     max-width: 1000px;
     margin: auto;
   }
-  
+  .photogallery {
+    margin-top: -23vh;
+  }
+
   h1 {
     font-size: 50px;
     word-break: break-all;
@@ -399,16 +424,15 @@ footer{
     margin: 8px -16px;
   }
   
-  /* Add padding BETWEEN each column (if you want) */
+  /* Add padding BETWEEN each column */
   .phrow,
   .phrow > .phcol {
-    padding: 8px;
+    padding: 22px;
   }
   
-  /* Create four equal columns that floats next to each other */
-  .phcol {
+   .phcol {
     float: left;
-    width: 25%;
+    width: 100%;
   }
   
   /* Clear floats after rows */
@@ -420,12 +444,101 @@ footer{
   
   /* Content */
   .phcontent {
-    background-color: white;
-    padding: 10px;
-    box-shadow: 10px 10px 5px rgb(75, 72, 72);
+    background-color: #f5f5f5;
+    padding: 19px;
+    padding-bottom: 2vh;
+    box-shadow: 20px 16px 20px 1px black;
+  }
+ .soldart-last {
+    padding-bottom: 10vh;
+    margin-bottom: 10vh;
+    box-shadow: 20px 16px 20px 1px black;
+ }
+ .phcontent h3 {
+    text-align: center;
+}
+
+.phcontent >p {
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.girlpowertext {
+     margin-top:-17vh;
+     text-align: center;
+     margin-bottom: 10vh;
+}
+/*Overlay images*/
+.overlay-container  {
+    position: relative;
+    width: 100%;
+}
+.overlay-img{
+    display: block;
+    width: 300px;
+    height: 300px;  
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #64A0A0;
+  }
+  
+  .overlay-container:hover .overlay {
+    opacity: 5;
+  }
+  
+  .overlay-text {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
   }
 
-/* Media query: tablets and larger (768px and up) */
+/*About page*/
+.aboutcamilla {
+    display: flex;
+    margin-top: 6vh;
+    margin-bottom: 20vh;
+    flex-direction: column;
+    align-items: center;
+  }
+
+ .aboutcamilla h4{
+    font-size:20px;
+    color: #64A0A0;
+    font-weight: bold;
+    font-style: italic;
+     padding-top: 5vh;
+}
+.aboutcamilla img {
+    width: 200px;
+    height: 200px;
+}
+
+.cdhistory {
+    margin-left: 20px;
+    margin-right: 20px; 
+    font-style: italic;
+     line-height: 20px;
+     letter-spacing: 2px;
+     font-size: 16px;
+}
+
+   /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
     /* Header */
@@ -434,7 +547,7 @@ footer{
         color: black;
         font-size: 18px;
         margin-top: 2vh;
-        margin-right: 3vw;
+        margin-right: 11vw;
         }
        
  #logotype {
@@ -517,13 +630,77 @@ footer{
 .yourcoach  {
     margin-bottom: -82vh;
     font-size: 24px;
-         }
-/*Photogallery on inspiration page*/
-         .phcontent {
-            width: 50%;
-          }
-         
+ }
+
+ /*Inspiration page*/
+ .aboutgallery p{
+    font-size:26px;
+    font-style: italic;
+    padding-bottom: 2vh;
+}
+
+.aboutgallery img{
+    width: 100px;
+    height: 100px;
     }
+
+ .photogallery {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+ }
+ .content {
+    padding: 20px;
+ 
+ }
+ 
+ .phrow, .phrow > .phcol {
+            padding: 30px;
+        }
+ .phcol {
+        float: left;
+         width: 50%;   
+    }
+    
+ img.soldart-last {
+    padding-bottom: 12vh;
+    margin-bottom: -48vh;
+}
+.girlpowertext {
+    margin-top:20vh;
+    padding: 200px;
+    font-size: 28px;
+    text-align: center;
+}
+/*About page*/
+.aboutcamilla {
+    display: flex;
+    margin-top: 6vh;
+    margin-bottom: 20vh;
+    flex-direction: row;
+}
+.story4 .story1 .story2 .story3{
+    margin-left: 80px;
+
+}
+ .aboutcamilla h4{
+    flex: none;
+     padding-top: 10vh;
+}
+.aboutcamilla img {
+    width: 500px;
+    height: 500px;
+}
+
+.cdhistory {
+    margin-left: 20px;
+    margin-right: 20px; 
+    font-style: italic;
+     line-height: 20px;
+     letter-spacing: 2px;
+     font-size: 16px;
+}
+
+
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
@@ -534,7 +711,6 @@ footer{
         margin-top: 5vh;
          }
 
-    
     #cover-text  {
         width: 25%;
         top: 22vh;
@@ -568,8 +744,27 @@ footer{
       padding-left: 28vw;
       height: 32vh;
 }
-/*Photogallery on inspiration page*/
-.phcontent {
-    width: 100%;
+ /* Responsive photogallery - makes the two columns stack on top of each other */
+   .phcontent {
+      width: 100%;
+    }
+
+/* four equal columns that floats next to each other */
+.phcol {
+    float: left;
+    width: 12,5%;
   }
+
+  img.soldart-last {
+    padding-bottom: 28vh;
+    margin-bottom: -25vh;
 }
+
+ .girlpowertext {
+        margin-top:-12vh;
+        padding: 119px;
+            }
+}
+   
+
+} 
