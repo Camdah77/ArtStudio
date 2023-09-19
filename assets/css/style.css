@@ -155,7 +155,6 @@ main {
     max-width: 270px;
     justify-content: space-evenly;
     gap: 3vh;
-    margin-bottom: 10vh;
     margin-top: 10vh;
       }
 
@@ -166,16 +165,9 @@ main {
     box-shadow: 10px 10px 5px rgb(75, 72, 72);
      }
 
-/* Heading: Uniqe concept */
-.concept {
-    font-size: 14px;
-    font-style: italic;
-    text-align: center;
-    color: #64A0A0;
-    font-weight: bold;
-}
      .stepsartstudio {
     width: 100%;
+    margin-bottom: -10vh;
 }
 
 /*End of flexbox Join us */
@@ -385,16 +377,17 @@ footer{
     margin-left: 10vw;
     width: 80%;
     height: 400px;
-    margin-top: 20vh;
+    margin-top: 10vh;
     text-align: center;
 }
-
+/*headings at all pages small device*/
 .heading-all{
-    font-size:30px;
+    font-size:18px;
     color: #64A0A0;
     font-weight: bold;
     padding-bottom: 2vh;
-    font-weight: bold;
+    margin-top: 13vh;
+    text-align: center;
 }
 .aboutgallery p{
     font-size:16px;
@@ -412,7 +405,7 @@ footer{
     margin: auto;
   }
   .photogallery {
-    margin-top: -23vh;
+    margin-top: -8vh;
   }
 
   h1 {
@@ -468,65 +461,19 @@ footer{
      text-align: center;
      margin-bottom: 10vh;
 }
-/*Overlay images*/
-.overlay-container  {
-    position: relative;
-    width: 100%;
-}
-.overlay-img{
-    display: block;
-    width: 300px;
-    height: 300px;  
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #64A0A0;
-  }
-  
-  .overlay-container:hover .overlay {
-    opacity: 5;
-  }
-  
-  .overlay-text {
-    color: white;
-    font-size: 16px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-
 /*About page*/
 .aboutcamilla {
     display: flex;
-    margin-top: 6vh;
+    margin-top: 3vh;
     margin-bottom: 20vh;
     flex-direction: column;
     align-items: center;
   }
 
- .aboutcamilla h4{
-    font-size:20px;
-    color: #64A0A0;
-    font-weight: bold;
-    font-style: italic;
-     padding-top: 5vh;
-}
 .aboutcamilla img {
     width: 200px;
     height: 200px;
+    padding-bottom: 2vh;
 }
 
 .cdhistory {
@@ -597,6 +544,16 @@ footer{
         margin-bottom: 3vh;
             }    
 
+/*headings at all pages small device*/
+.heading-all{
+    font-size:30px;
+    color: #64A0A0;
+    font-weight: bold;
+    padding-bottom: 2vh;
+    margin-top: 20vh;
+    text-align: center;
+}
+
 /*flexbox joinus */
 .container-joinus {
     display: flex;
@@ -645,11 +602,12 @@ footer{
     }
 
  .photogallery {
-    padding-top: 10vh;
+    padding-top:20vh;
     padding-bottom: 10vh;
  }
  .content {
-    padding: 20px;
+    padding: 8px;
+    padding-bottom: 1vh;
  
  }
  
@@ -673,33 +631,30 @@ footer{
 }
 /*About page*/
 .aboutcamilla {
-    display: flex;
-    margin-top: 6vh;
+    margin-top: 5vh;
     margin-bottom: 20vh;
-    flex-direction: row;
+    width: 100%;
 }
-.story4 .story1 .story2 .story3{
-    margin-left: 80px;
 
-}
- .aboutcamilla h4{
-    flex: none;
-     padding-top: 10vh;
-}
-.aboutcamilla img {
+.aboutcamilla img{
     width: 500px;
     height: 500px;
-}
+    background-color: #64A0A0;
+    align-items: center;
 
+}
 .cdhistory {
     margin-left: 20px;
     margin-right: 20px; 
     font-style: italic;
-     line-height: 20px;
-     letter-spacing: 2px;
-     font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-size: 16px;
 }
-
+.story1 .story2 .story3 .story4 {
+    width: 300px;
+    height: 300px;
+}
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
