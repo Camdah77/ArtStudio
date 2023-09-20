@@ -634,12 +634,14 @@ footer{
     margin-top: 5vh;
     margin-bottom: 20vh;
     width: 100%;
+    background-color: rgb(246, 153, 205, 0.4);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
-
+/*About page*/
 .aboutcamilla img{
-    width: 500px;
-    height: 500px;
-    background-color: #64A0A0;
+    width: 350px;
+    height: 350px;
     align-items: center;
 
 }
@@ -647,13 +649,14 @@ footer{
     margin-left: 20px;
     margin-right: 20px; 
     font-style: italic;
-    line-height: 20px;
+    line-height: 24px;
     letter-spacing: 2px;
-    font-size: 16px;
+    font-size: 20px;
+    width: 350px;
 }
-.story1 .story2 .story3 .story4 {
-    width: 300px;
-    height: 300px;
+.story4 {
+    font-size: 18px;
+    line-height: 18px;  
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
