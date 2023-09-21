@@ -1,6 +1,5 @@
 /*Google fonts Merriweather */
-@import url('https: fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,500&display=swap');
 /*Margin & border */
 
 * {
@@ -496,26 +495,24 @@ footer{
 
    .tutbox {
     margin-top: 20vh;
-    width:35%;
-    border-radius: 15px;
     margin: 2% 1%;
     color: #000000;
   }
 
   .toolheading {
     color: #64A0A0;
-    font-size: 28px;
+    font-size: 14px;
     letter-spacing: 2px;
-    margin-left: 25vw;
+    margin-left: 15vw;
     margin-top: 2vh;
      }
 
  .toolheadingh4 {
-    color: #64A0A0;
-    font-size: 16px;
+    color: #060606;
+    font-size: 12px;
     letter-spacing: 1px;
-    margin-left: 11vw;
-    width: 250px;
+    margin-left: 18vw;
+
  }
 
    #toolkit {
@@ -557,6 +554,19 @@ div.desc {
     margin-bottom: -3vh;
     width: 150px;
     height: 150px;
+}
+#blink {
+    animation: blinker 1.5s linear infinite;
+    color:rgb(100, 160, 160);
+    font-family: sans-serif;
+    font-size: 58px;
+    margin-left: 25vw;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+
 }
 
    /* Media query: tablets and larger (768px and up) */
@@ -731,13 +741,72 @@ div.desc {
     line-height: 18px;  
 }
 /*Tutorial page*/
-.tutbox {
-    margin-top: 20vh;
-    width:35%;
-    margin: 2% 1%;
-    color: #000000;
-  }
 
+ .toolheading {
+   font-size: 26px;
+   margin-left: 26vw;
+      }
+
+ .toolheadingh4 {
+    font-size: 18px;
+    margin-left: 30vw;
+ }
+
+   #toolkit {
+    padding-left: 5vw;
+    margin-top: -20px;
+    width: 50%;
+    height: fit-content;
+    color: black;
+    font-size: 16px;
+    line-height: 20px;
+    font-style: italic;
+    padding-right: 5vw;
+}
+div.toolkit {
+    margin: 32px;
+    border: 1px solid #64A0A0;
+    box-shadow: 10px 10px 5px rgb(75, 72, 72);
+    float: left;
+    width: 250px;
+}
+
+div.toolkit:hover {
+  border: 1px solid #777;
+}
+
+div.toolkit img {
+  width: 250px;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.joinbuttontut{
+    margin-left: 44px;
+    margin-bottom: 39vh;
+}
+#blink {
+    animation: blinker 1.5s linear infinite;
+    color:rgb(100, 160, 160);
+    font-family: sans-serif;
+    font-size: 58px;
+    margin-left: 48vw;
+    margin-top: -37vh;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+.video-process {
+    margin-left:19vw;
+}
+
+}
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
@@ -805,11 +874,12 @@ div.desc {
     flex-flow: row;
     flex: 1 0 auto;
     margin-bottom: 20vh;
+    width:73vw;
   }
 
 .tutbox {
     margin-top: 20vh;
-    width:70%;
+    width:73vw;
     color: #000000;
   }
 
@@ -817,7 +887,7 @@ div.desc {
     color: #64A0A0;
     font-size: 28px;
     letter-spacing: 2px;
-    margin-left:60%;
+    margin-left: 2vw;
     margin-top: 2vh;
      }
 
@@ -825,14 +895,13 @@ div.desc {
     color: #0d0d0d;
     font-size: 16px;
     letter-spacing: 1px;
-    margin-left: 55%;
+    margin-left: 2vw;
     width: 250px;
  }
 
-   #toolkit {
-    padding-left: 5vw;
+.toolkit {
     margin-top: -20px;
-    width: 100%;
+    width: 400px;
     padding-right: 5vw;
 }
 
@@ -841,21 +910,39 @@ div.toolkit {
     border: 1px solid #64A0A0;
     box-shadow: 10px 10px 5px rgb(75, 72, 72);
     float: left;
-    width: 100%;
+    width: 400px;
+    height: 480px;
 }
 
 div.toolkit img {
-  width: 500px;
+  width: 400px;
   height: auto;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.sideelements{
+    display: flex;
+    margin-top: 33vh;
+    width: 20vw;
+
 }
 .joinbuttontut{
-    margin-left: 72px;
-    margin-top: 3vh;
-    margin-bottom: -3vh;
+    margin-top: -29vh;
+    margin-bottom: -31vh;
     width: 150px;
     height: 150px;
+    margin-left: -38vh;
 }
 
+.video-process {
+    margin-left: 1vw;
+    }
 
+.blink {
+    margin-left: 13vh;
+    margin-bottom: 60vh;
+}
 
-    }}
+}
+    
