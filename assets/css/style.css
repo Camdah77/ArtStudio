@@ -485,6 +485,80 @@ footer{
      font-size: 16px;
 }
 
+/*Tutorial page*/
+
+.tutwrap {
+    display: flex;
+    flex-flow: column;
+    flex: 1 0 auto;
+    margin-bottom: 20vh;
+  }
+
+   .tutbox {
+    margin-top: 20vh;
+    width:35%;
+    border-radius: 15px;
+    margin: 2% 1%;
+    color: #000000;
+  }
+
+  .toolheading {
+    color: #64A0A0;
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-left: 25vw;
+    margin-top: 2vh;
+     }
+
+ .toolheadingh4 {
+    color: #64A0A0;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-left: 11vw;
+    width: 250px;
+ }
+
+   #toolkit {
+    padding-left: 5vw;
+    margin-top: -20px;
+    width: 100%;
+    height: fit-content;
+    color: black;
+    font-size: 16px;
+    line-height: 20px;
+    font-style: italic;
+    padding-right: 5vw;
+}
+div.toolkit {
+    margin: 15px;
+    border: 1px solid #64A0A0;
+    box-shadow: 10px 10px 5px rgb(75, 72, 72);
+    float: left;
+    width: 250px;
+}
+
+div.toolkit:hover {
+  border: 1px solid #777;
+}
+
+div.toolkit img {
+  width: 250px;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.joinbuttontut{
+    margin-left: 72px;
+    margin-top: 3vh;
+    margin-bottom: -3vh;
+    width: 150px;
+    height: 150px;
+}
+
    /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -638,12 +712,10 @@ footer{
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
-/*About page*/
 .aboutcamilla img{
     width: 350px;
     height: 350px;
     align-items: center;
-
 }
 .cdhistory {
     margin-left: 20px;
@@ -658,6 +730,13 @@ footer{
     font-size: 18px;
     line-height: 18px;  
 }
+/*Tutorial page*/
+.tutbox {
+    margin-top: 20vh;
+    width:35%;
+    margin: 2% 1%;
+    color: #000000;
+  }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
@@ -706,8 +785,6 @@ footer{
    .phcontent {
       width: 100%;
     }
-
-/* four equal columns that floats next to each other */
 .phcol {
     float: left;
     width: 12,5%;
@@ -722,7 +799,63 @@ footer{
         margin-top:-12vh;
         padding: 119px;
             }
-}
-   
+/*Tutorial page*/
+.tutwrap {
+    display: flex;
+    flex-flow: row;
+    flex: 1 0 auto;
+    margin-bottom: 20vh;
+  }
 
-} 
+.tutbox {
+    margin-top: 20vh;
+    width:70%;
+    color: #000000;
+  }
+
+  .toolheading {
+    color: #64A0A0;
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-left:60%;
+    margin-top: 2vh;
+     }
+
+ .toolheadingh4 {
+    color: #0d0d0d;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-left: 55%;
+    width: 250px;
+ }
+
+   #toolkit {
+    padding-left: 5vw;
+    margin-top: -20px;
+    width: 100%;
+    padding-right: 5vw;
+}
+
+div.toolkit {
+    margin: 15px;
+    border: 1px solid #64A0A0;
+    box-shadow: 10px 10px 5px rgb(75, 72, 72);
+    float: left;
+    width: 100%;
+}
+
+div.toolkit img {
+  width: 500px;
+  height: auto;
+}
+.joinbuttontut{
+    margin-left: 72px;
+    margin-top: 3vh;
+    margin-bottom: -3vh;
+    width: 150px;
+    height: 150px;
+}
+
+
+
+    }}
