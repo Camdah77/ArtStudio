@@ -1,7 +1,7 @@
 /*Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600&family=Montserrat:ital,wght@0,400;0,700;1,500&display=swap');
 
-/*Margin & border */
+/*All pages:Margin & border */
 
 * {
     margin: 0;
@@ -9,20 +9,20 @@
     box-sizing: border-box;
 }
 
-/*General styling  */
+/*All pages:General styling  */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 
-/* Generic project styles */
+/* All pages:Generic project styles */
     color: #010101;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     margin: 0;
 }
 
-/* Header */
+/* All pages: Header */
 header {
     display: flex;
     font-family: 'League Spartan', sans-serif;
@@ -97,7 +97,7 @@ nav {
     padding-left: 2vh;
 }
 
-/* Main content */
+/* All pages:Main content */
 main {
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
@@ -107,7 +107,7 @@ main {
     display: flex;
     flex-direction: column;
 }
-/*Link to signuppage*/
+/*All pages:Link to signuppage*/
 .linkjoinnow {
     font-size: 14px;
     color:#F699cd;
@@ -115,19 +115,17 @@ main {
     font-weight: bold;
 }
 
-
-/*headings at all pages small device*/
+/*All pages: H4 headings at small device*/
 .heading-all{
     font-family: 'League Spartan', sans-serif;
     font-size:18px;
     color: #64A0A0;
     font-weight: bold;
     padding-bottom: 2vh;
-    margin-top: 10vh;
+    margin-top: 12vh;
     text-align: center;
 }
-/* Hero section */
-
+/* Index:Hero section */
 #hero {
     height: 700px;
     width: 100%;
@@ -153,7 +151,7 @@ main {
     height: 150px;
        }
 
-/*flexbox joinus */
+/*Index:flexbox joinus */
 .container-joinus {
     display: flex;
     flex-wrap: wrap;
@@ -173,7 +171,7 @@ main {
     box-shadow: 10px 10px 5px rgb(75, 72, 72);
      }
 
-/*Hading Concept Boost your creativity*/
+/*Index:H4 under "heading Uniqe and personlilized concept"*/
 .concept {
         margin-top: -6vh;
         font-size: 12px;
@@ -183,7 +181,7 @@ main {
         font-weight: bold;
     }
  
-/*Info membership*/
+/*Index:Info membership*/
 .membership {
     display: flex;
     flex-direction: column;
@@ -193,7 +191,7 @@ main {
 .membership img {
     width: 100%;
     }
-/* Resized when hover over images*/
+/* Index:Images resized when hover over images*/
 .levelmember {
     width: 100%;
     transition: transform .2s; /* Animation */
@@ -202,9 +200,7 @@ main {
  .levelmember:hover {
     transform: scale(1.3);
 }
-/*Short presentation Camilla fronpage*/
-/*Slideshow - The animation is set to 20 seconds and as there are four images the animation delay is set at 5 seconds difference (eg 0s, 5s, 10s, 15s).*/
-
+/*Index: Image Camilla and Slideshow sold art*/
 .soldart {
     display: flex;
     flex-direction: row;
@@ -258,6 +254,7 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
 
+/*All pages: Footer with links to Facebook, Youtube and Instagram*/
 footer{
         position: fixed;
         bottom: 0;
@@ -281,7 +278,7 @@ footer{
         color: #fdfafa;
         padding-top: 4vh;
     }
-/*Formsection */
+/* Signup-page: Formsection */
        .form-section {
         clear: left;
         background: url("../images/hemo4.webp");
@@ -333,126 +330,33 @@ footer{
     background-color: #fafafa;
     color: #F699cd;
 }
-
-.faqbutton {
-   width:100px;
-   height:100px;
-    }
-
-.modal-window {
-    position: fixed;
-    background-color: rgba(255, 255, 255, 0.25);
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 999;
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.3s;
-  }
-  .modal-window:target {
-    visibility: visible;
-    opacity: 1;
-    pointer-events: auto;
-  }
-  .modal-window > div {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 2em;
-    background: white;
-    align-items: center;
-    color: #010101;
-    font-size: 14px;
-  }
- 
- .modal-window h1 {
-    font-family: 'League Spartan', sans-serif;
-    background-color: #64A0A0;
-    color: white;
-    font-size: 18px;
-    margin: 0 0 15px;
-    text-align: center;
-  }
-  .faq {
-    font-size: 14px;
-    font-style: italic;
-  }
-
- .modal-window h2 {
-    font-family: 'League Spartan', sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    color: #64A0A0;
- }
-
-  .modal-close {
-    color:#000000;
-    font-size: 14px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 70px;
-    text-decoration: none;
-  }
-  .modal-close:hover {
-    color:#64A0A0;
-    font-weight: bold;
-  }
-
 .camillapicture{
      height: 50vh;
      width: 50vw;
 }
   
-/*Photogallery on inspiration page*/
-.aboutgallery{
-    margin-left: 10vw;
-    width: 80%;
-    height: 400px;
-    margin-top: 10vh;
-    text-align: center;
+/*Inspiration: Presentation and heading*/
+.aboutinspiration{
+    margin-left: 13vw;
+    margin-right: 9vw;
+    font-size: 14px;
 }
 
-.aboutgallery p{
-    font-size:16px;
-    font-style: italic;
-    padding-bottom: 2vh;
-}
-
-/*Joinbutton at inspiration page*/
-.join-nowbutton{
-    width: 100px;
-    height: 100px;
-    } 
-
- #gallery {
+/*Inspiration: Photogallery*/
+  .maingallery {
     margin-top: 47px;
     max-width: 1000px;
     margin: auto;
   }
-  .photogallery {
-    margin-top: -8vh;
-  }
-
-  h1 {
-    font-family: 'League Spartan', sans-serif;
-    font-size: 50px;
-    word-break: break-all;
-  }
   
-  .phrow {
+   .phrow {
     margin: 8px -16px;
   }
   
   /* Add padding BETWEEN each column */
   .phrow,
   .phrow > .phcol {
-    padding: 22px;
+    padding: 6px;
   }
   
    .phcol {
@@ -471,30 +375,27 @@ footer{
   .phcontent {
     background-color: #f5f5f5;
     padding: 19px;
-    padding-bottom: 2vh;
+    padding-bottom: 4vh;
     box-shadow: 20px 16px 20px 1px black;
   }
- .soldart-last {
-    padding-bottom: 10vh;
-    margin-bottom: 10vh;
-    box-shadow: 20px 16px 20px 1px black;
- }
+
+  .phcontent img {
+    width: 100%;
+  }
  .phcontent h3 {
-    font-family: 'League Spartan', sans-serif;
     text-align: center;
 }
-
 .phcontent >p {
     text-align: center;
-    margin-bottom: 10vh;
+}
+.girlpowertext {
+     margin-top:-39vh;
+}
+.girlpowertext >p {
+    text-align: center;
 }
 
-.girlpowertext {
-     margin-top:-17vh;
-     text-align: center;
-     margin-bottom: 10vh;
-}
-/*About page*/
+/*About page:Text and images*/
 .aboutcamilla {
     display: flex;
     margin-top: 3vh;
@@ -510,27 +411,17 @@ footer{
 }
 
 .cdhistory {
-    margin-left: 20px;
-    margin-right: 20px; 
+    padding-left: 50px;
+    padding-right: 50px;
     font-style: italic;
-     line-height: 20px;
-     letter-spacing: 2px;
-     font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin-bottom: 38vh;
+    margin-top: -27vh;
 }
 
 /*Tutorial page*/
-.tutwrap {
-    display: flex;
-    flex-flow: column;
-    flex: 1 0 auto;
-    margin-bottom: 20vh;
-  }
-
-   .tutbox {
-    margin-top: 20vh;
-    margin: 2% 1%;
-    color: #000000;
-  }
 
   .toolheading {
     color: #64A0A0;
@@ -547,7 +438,6 @@ footer{
     letter-spacing: 1px;
     margin-left: 18vw;
  }
-
    #toolkit {
     padding-left: 5vw;
     margin-top: -20px;
@@ -581,30 +471,18 @@ div.desc {
   text-align: center;
 }
 
-.joinbuttontut{
-    margin-left: 72px;
+.video-process{
+    width:100%;
+    height: 500px;
     margin-top: 3vh;
-    margin-bottom: -3vh;
-    width: 150px;
-    height: 150px;
-}
-#blink {
-    animation: blinker 1.5s linear infinite;
-    color:rgb(100, 160, 160);
-    font-family: sans-serif;
-    font-size: 58px;
-    margin-left: 25vw;
-}
-@keyframes blinker {
-    50% {
-        opacity: 0;
-    }
+    padding-bottom: 20vh;
+    margin-bottom: 20vh;
 }
 
    /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-    /* Header */
+    /* All page:Header */
     nav {
         display: inline ;
         color: black;
@@ -637,7 +515,7 @@ div.desc {
        font-weight:bold;
     }
 
- /* Hero section */
+ /* Index:Hero section */
 #cover-text  {
     width: 50%;
     top: 22vh;
@@ -661,7 +539,7 @@ div.desc {
         margin-bottom: 3vh;
             }    
 
-/*headings at all pages +768 devices*/
+/*All pages:headings at all pages +768 devices*/
 .heading-all{
     font-family: 'League Spartan', sans-serif;
     font-size:30px;
@@ -672,7 +550,7 @@ div.desc {
     text-align: center;
 }
 
-/*flexbox joinus */
+/*Index:flexbox joinus */
 .container-joinus {
     display: flex;
     flex-wrap: wrap;
@@ -685,7 +563,7 @@ div.desc {
     margin-top: 10vh;
 }
 
-/*Info membership first page*/
+/*Index:Info membership first page*/
 .membership {
     display: flex;
     flex-direction: column;
@@ -693,7 +571,7 @@ div.desc {
     gap: 71px;
     }
 
-/* Resized when hover over images*/
+/* Index:Images resized when hover over images*/
 .levelmember {
     width: 200px;
     transition: transform .2s; /* Animation */
@@ -702,7 +580,7 @@ div.desc {
  .levelmember:hover {
     transform: scale(1.3);
 }
-/*Your creative coach*/
+/*Index: Image Camilla and slideshow sold art*/
 .soldart {
     padding-bottom: 5vh;
 }
@@ -726,23 +604,12 @@ div.desc {
 }
 .readmore {
     font-size: 12px;
-    line-height: 26px;
+   line-height: 26px;
 }
- /*Inspiration page*/
- .aboutgallery p{
-    font-size:18px;
-    font-style: italic;
-    padding-bottom: 2vh;
+/*Inspiration page: Photogallery*/
 }
-
-/*Joinbutton at inspiration page*/
-.join-nowbutton{
-    width: 100px;
-    height: 100px;
-    }
-
  .photogallery {
-    padding-top:20vh;
+    padding-top:0vh;
     padding-bottom: 10vh;
  }
  .phcontent {
@@ -761,7 +628,7 @@ div.desc {
         float: left;
          width: 50%;   
     }
-    
+ /*Inspiration: Intro on photgallery*/    
  img.soldart-last {
     padding-bottom: 12vh;
     margin-bottom: -48vh;
@@ -772,7 +639,7 @@ div.desc {
     font-size: 28px;
     text-align: center;
 }
-/*About page*/
+/*About page Text and image*/
 .aboutcamilla {
     margin-top: 5vh;
     margin-bottom: 20vh;
@@ -785,7 +652,10 @@ div.desc {
     height: 350px;
     align-items: center;
 }
-/*Tutorial page*/
+/*Tutorial page: Heading above tutorialgallery*/
+.tutbox{
+    margin-left: 4vw;
+}
  .toolheading {
     font-family: 'League Spartan', sans-serif;
    font-size: 26px;
@@ -832,29 +702,11 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
-
-.joinbuttontut{
-    margin-left: 44px;
-    margin-bottom: 39vh;
-}
-#blink {
-    animation: blinker 1.5s linear infinite;
-    color:rgb(100, 160, 160);
-    font-family: sans-serif;
-    font-size: 58px;
-    margin-left: 48vw;
-    margin-top: -37vh;
-}
-@keyframes blinker {
-    50% {
-        opacity: 0;
-    }
-}
 .video-process {
-    margin-left:19vw;
+    height: 675px;
+    padding-bottom: 0vh;
 }
 
-}
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
  
@@ -869,8 +721,12 @@ div.desc {
         line-height: 25px;
         margin-top: 5vh;
          }
+/*All pages:headings at all pages +992 devices*/
+.heading-all{
+     margin-top: 16vh;
 
-/*Hero image and covertext*/
+}
+/*Index:Hero image and covertext*/
     #cover-text  {
         width: 25%;
         top: 22vh;
@@ -883,7 +739,7 @@ div.desc {
         margin-bottom: 3vh;
             }    
 
- /*flexbox joinus */
+ /*Index:flexbox joinus */
  .container-joinus >img  {
     width: 300px;
     height: 300px;
@@ -900,18 +756,12 @@ div.desc {
     padding-top: 10vh;
     padding-bottom: 10vh;
  } 
-/*Join now button appears on different pages*/
-.joinlink{
-    width: 100px;
-    height: 100px;
-}
-
-/*Concept Boost your creativity*/
+/*Index: Heading position above member levels*/
 .concept {
     margin-top: -1vh;
 }
 
-/*Info membership first page*/
+/*Index: Level of membership*/
 .membership {
     display: flex;
     justify-content: space-between;
@@ -922,7 +772,7 @@ div.desc {
     align-items: center;
 }
 
-/* Resized when hover over images*/
+/* Index:Resize Level of memberships when hover over images*/
 .levelmember {
     width:100px;
     transition: transform .2s; /* Animation */
@@ -932,7 +782,7 @@ div.desc {
     transform: scale(1.3);
  }
 
-/*About Camilla and slideshow*/
+/*Index: About Camilla and slideshow*/
     .soldart {
          flex-wrap: wrap;
         align-content: space-between;    
@@ -941,8 +791,8 @@ div.desc {
     font-size: 30px;
 }   
     
- /* Responsive photogallery - makes the two columns stack on top of each other */
-   .phcontent {
+ /* Inpsiration: photogallery */
+.phcontent {
       width: 100%;
     }
 .phcol {
@@ -950,28 +800,19 @@ div.desc {
     width: 12,5%;
   }
 
-  img.soldart-last {
-    padding-bottom: 28vh;
-    margin-bottom: -25vh;
-}
+/*Inspiration:Last photo and text Sold art*/
 
  .girlpowertext {
-        margin-top:-12vh;
-        padding: 119px;
+        margin-top: 18vh;
+        padding: 256px;
             }
 /*Tutorial page*/
-.tutwrap {
-    display: flex;
-    flex-flow: row;
-    flex: 1 0 auto;
-    margin-bottom: 20vh;
-    width:73vw;
-  }
-
 .tutbox {
-    margin-top: 20vh;
-    width:73vw;
+    margin-top: 4vh;
+    margin-left: 5vw;
+    width:100%;
     color: #000000;
+    margin-bottom: 3vh;
   }
 
   .toolheading {
@@ -1019,23 +860,7 @@ div.toolkit img {
     width: 20vw;
 }
 
-.video-process {
-    margin-left: 1vw;
-    }
-
-.joinbuttontut{
-    margin-top: -29vh;
-    margin-bottom: -48vh;
-    width: 150px;
-    height: 150px;
-    margin-left:-23vw;
-}
-.blink {
-    margin-left: -37vh;
-}
-
 /*About Page*/
-
 .aboutcamilla {
     display: flex;
     flex-direction: row;
@@ -1055,7 +880,8 @@ div.toolkit img {
             column-count: 3;
             column-gap: 40px;
             column-rule: 1px solid #64A0A0;
+            margin-bottom: 27vh;
+            margin-top: -5vh;
         }
     }
   
-

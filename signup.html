@@ -46,45 +46,8 @@
     <!-- Main content -->
     <main>
         <section class="form-section">
-            <action="welcome.html" class="signup-form">
- <!-- FAQ PopUp -->
-                <div class="container">
-                    <a class="btn" href="#open-modal"> <img src="assets/images/faq.webp" class="faqbutton"></a>
-                  </div>
-                </div>
-                <div id="open-modal" class="modal-window">
-                  <div>
-                    <a href="signup.html" title="Close" class="modal-close">Close</a>
-                    <br>
-                    <h1>I WANT TO JOIN!</h1>
-                    
-                         <p class="faq">
-                           <UL>
-                          <li>Start to fill out our <A href="signup.html">form.</A> </ol>
-                          <li>You will be forward to our creative tutoial page</ol>
-                          <li>With all set, you are free to join our online classes </ol>
-                      </UL><br>
-                      <h2>DOES IT COST ANYTHING?</h2>
-                      No, Our online class is free of charge.
-                      No card is needed. <br><br>
-          
-                   <h2>WHY DO YOU NEED NAME AND E-MAIL?</h2>
-                      You will get a personalized account,
-                      so you can communicate and upload your artwork.<br><br>
-          
-                     <bold> ARE YOU READY? </bold><A href="signup.html">LETS GO </A></p>
-          
-          
-                     <bold> Please note that this page is a project at Code Institute´s education. </bold>
-                  </div>
-          
-                  </div>
-                </div>
-               
-       <!--End of !--FAQ PopUP-->
-
-
-                <h2> Are you ready?</h2>
+            <form action="welcome.html" class="signup-form">
+                 <h2> Are you ready?</h2>
                 <label for="fname">First Name</label>
                 <input class="text-input" id="fname" name="first_name" type="text" required>
                 
@@ -93,15 +56,24 @@
                 
                 <label for="email">Email Address</label>
                 <input class="text-input" type="email" id="email" name="email_address" required>
-               Do you have any favorite material? <br>
-
+              
+                Do you have any favorite material? <br>
                 <select id="color" name="color">
                     <option value="acrylic">Acrylic</option>
                     <option value="oil">Oil</option>
                     <option value="aquarell">Aquarell</option>
                     <option value="aquarell">I don´t know</label>
-                  
-                <input class="join-button" type="submit" value="Lets make art" scr="welcome">
+                    </select>
+                    <br>
+
+                Choose your level of Memberships:<br>
+                <select id="membership" name="membership">
+                            <option value="silver">Silver, Free of charge</option>
+                            <option value="platinum">Platinum, $10/month</option>
+                            <option value="diamond">Diamond, $25/month</option>
+                        </select>
+                        <br>
+                <input class="join-button" type="submit" value="Lets make art">
             </form>
                     </div>
                   </div>
