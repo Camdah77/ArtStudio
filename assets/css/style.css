@@ -107,6 +107,14 @@ main {
     display: flex;
     flex-direction: column;
 }
+/*Link to signuppage*/
+.linkjoinnow {
+    font-size: 14px;
+    color:#F699cd;
+    text-align: right;
+    font-weight: bold;
+}
+
 
 /*headings at all pages small device*/
 .heading-all{
@@ -115,7 +123,7 @@ main {
     color: #64A0A0;
     font-weight: bold;
     padding-bottom: 2vh;
-    margin-top: 13vh;
+    margin-top: 10vh;
     text-align: center;
 }
 /* Hero section */
@@ -131,7 +139,7 @@ main {
 
 #cover-text {
     position: absolute;
-    top:54vh;
+    top:23vh;
     background-color: rgb(255, 255, 255, 0.6);
     width: 100%;
     height: fit-content;
@@ -155,6 +163,7 @@ main {
     justify-content: space-evenly;
     gap: 3vh;
     margin-top: 10vh;
+    margin-bottom: 10vh;
       }
 
  .container-joinus >img  {
@@ -164,7 +173,7 @@ main {
     box-shadow: 10px 10px 5px rgb(75, 72, 72);
      }
 
-/*Concept Boost your creativity*/
+/*Hading Concept Boost your creativity*/
 .concept {
         margin-top: -6vh;
         font-size: 12px;
@@ -184,17 +193,27 @@ main {
 .membership img {
     width: 100%;
     }
+/* Resized when hover over images*/
+.levelmember {
+    width: 100%;
+    transition: transform .2s; /* Animation */
+    }
 
+ .levelmember:hover {
+    transform: scale(1.3);
+}
 /*Short presentation Camilla fronpage*/
 /*Slideshow - The animation is set to 20 seconds and as there are four images the animation delay is set at 5 seconds difference (eg 0s, 5s, 10s, 15s).*/
 
 .soldart {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     background-color: black;
     gap: 3vw;
     padding-top: 3vh;
-    padding-bottom: 6vh;
+    padding-bottom: 5vh;
+    margin-bottom: 27vh;
     padding-left: 2vw;
     border-bottom: 5px double #64A0A0;
     flex-wrap: wrap;
@@ -203,7 +222,6 @@ main {
     width: 130px;
     height: 130px;
 }
-
 .carousel {
     width:130px;
     height:130px;
@@ -216,32 +234,35 @@ main {
     width:130px;
     height:130px;
 }
-
     @keyframes carousel {25%{opacity:1;} 40%{opacity:0;}}
     .carousel img:nth-child(4){animation-delay:0s;}
     .carousel img:nth-child(3){animation-delay:5s;}
     .carousel img:nth-child(2){animation-delay:10s;}
     .carousel img:nth-child(1){animation-delay:15s;}
 
-.yourcoach {
-        color: #fafafa;
-        background-color: #000000;
-        font-size: 14px;
-        font-style: italic;
-        width: 100%;
-        height: 22vh;
-        padding-left: 4vw;
-              }
-
-.yourcoach a {
-             color:pink;
-              }
+.readmore {
+    color: #fafafa;
+    font-size: 12px;
+    line-height: 12px;
+    font-style: italic;
+}
+.readmore a {
+    color:#F699cd; 
+    }
+    
+ .readmore a:hover{
+    color:#F699cd; 
+    }
+    
+    .active{
+        border-bottom: 1px solid #3a3a3a;
+    }
 
 footer{
         position: fixed;
         bottom: 0;
         width: 100%;   
-        height: 12vh;
+        height: 150px;
         background-color: rgb(100,160,160);                             
                     }   
 
@@ -278,14 +299,12 @@ footer{
         left: 10%;
         padding: 9px;
     }
-    
-    .signup-form > h2 {
+        .signup-form > h2 {
         font-family: 'League Spartan', sans-serif;
         color: #F699cd;
         margin-bottom: 20px;
     }
-    
-    .text-input {
+        .text-input {
         background: transparent;
         color: #fafafa;
         width: 100%;
@@ -589,9 +608,9 @@ div.desc {
     nav {
         display: inline ;
         color: black;
-        font-size: 18px;
+        font-size: 22px;
         margin-top: 2vh;
-        margin-right: 11vw;
+        margin-right: 13vw;
         }
        
  #logotype {
@@ -682,32 +701,36 @@ div.desc {
 
  .levelmember:hover {
     transform: scale(1.3);
- }
-     .camillaslideshow {
-        width: 350px;
-        height: 350px;
-    }
-    
-    .carousel {
-        width:350px;
-        height:350px;
-        position:relative; 
-    }
-    .carousel > img { 
-        position:absolute; 
-        animation:carousel  20s infinite; 
-        opacity:0; 
-        width:350px;
-        height:350px;
-    }
-.yourcoach  {
-    margin-bottom: -82vh;
-    font-size: 24px;
- }
+}
+/*Your creative coach*/
+.soldart {
+    padding-bottom: 5vh;
+}
 
+.camillaslideshow {
+   width: 350px;
+   height: 350px;
+}
+
+.carousel {
+   width:350px;
+   height:350px;
+   position:relative; 
+}
+.carousel > img { 
+   position:absolute; 
+   animation:carousel  20s infinite; 
+   opacity:0; 
+   width:350px;
+   height:350px;
+}
+.readmore {
+    font-size: 12px;
+    line-height: 26px;
+}
  /*Inspiration page*/
  .aboutgallery p{
-    font-size:26px;
+    font-size:18px;
     font-style: italic;
     padding-bottom: 2vh;
 }
@@ -834,6 +857,11 @@ div.desc {
 }
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+ 
+    /* Header */
+  nav {
+    margin-right: -19vw;
+    }
 
     #menu {
         display: flex;
@@ -842,6 +870,7 @@ div.desc {
         margin-top: 5vh;
          }
 
+/*Hero image and covertext*/
     #cover-text  {
         width: 25%;
         top: 22vh;
@@ -859,7 +888,7 @@ div.desc {
     width: 300px;
     height: 300px;
     align-items: center;
-   box-shadow: 10px 10px 5px rgb(75, 72, 72);
+    box-shadow: 10px 10px 5px rgb(75, 72, 72);
                  }   
 
  .container-joinus {
@@ -871,6 +900,12 @@ div.desc {
     padding-top: 10vh;
     padding-bottom: 10vh;
  } 
+/*Join now button appears on different pages*/
+.joinlink{
+    width: 100px;
+    height: 100px;
+}
+
 /*Concept Boost your creativity*/
 .concept {
     margin-top: -1vh;
@@ -879,27 +914,33 @@ div.desc {
 /*Info membership first page*/
 .membership {
     display: flex;
+    justify-content: space-between;
+    gap: 34px;
+    width: 800px;
+    flex-wrap: nowrap;
     flex-direction: row;
-    justify-content: center;
-    gap: 50px;
-    }
+    align-items: center;
+}
 
 /* Resized when hover over images*/
 .levelmember {
-    width:200px;
+    width:100px;
     transition: transform .2s; /* Animation */
     }
 
  .levelmember:hover {
     transform: scale(1.3);
+ }
 
+/*About Camilla and slideshow*/
     .soldart {
-padding-left: 0vw;
-}
- .yourcoach {
-    padding-left: 26vw;
-      height: 32vh;
-}
+         flex-wrap: wrap;
+        align-content: space-between;    
+    }
+.readmore {
+    font-size: 30px;
+}   
+    
  /* Responsive photogallery - makes the two columns stack on top of each other */
    .phcontent {
       width: 100%;
@@ -1018,4 +1059,3 @@ div.toolkit img {
     }
   
 
-}
