@@ -168,3 +168,5 @@ E. Live chatbot
 F. Live-sessions
 
 ## Testing 
+![W3 CSS ](assets/images/readme-w3css.webp)
+![W3 HTML ](assets/images/readme-w3html.webp)
