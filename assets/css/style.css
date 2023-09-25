@@ -375,13 +375,23 @@ footer {
 }
 
 /*Inspiration: Presentation and heading*/
-/*Photogallery on inspiration page*/
   .maingallery {
     margin-top: 47px;
-    max-width: 1000px;
+    max-width: 280px;
     margin: auto;
   }
    
+  .aboutgallery{
+    margin-top: 3vh;
+  }
+
+  .aboutinspiration{
+    margin-left: 9vw;
+    margin-right: 9vw;
+  }
+  .photogallery {
+    padding-bottom: 30vh;
+  }
   .phrow {
     margin: 8px -16px;
   }
@@ -389,12 +399,12 @@ footer {
   /* Add padding BETWEEN each column */
   .phrow,
   .phrow > .phcol {
-    padding: 22px;
+    padding: 12px;
   }
   
    .phcol {
     float: left;
-    width: 100%;
+    width: 80%;
   }
   
   /* Clear floats after rows */
@@ -410,7 +420,14 @@ footer {
     padding: 19px;
     padding-bottom: 4vh;
     box-shadow: 20px 16px 20px 1px black;
+    width: 220px;
+    margin-left: 20px;
   }
+
+ .phcontent img {
+    width: 180px;
+
+ }
  .phcontent h3 {
     text-align: center;
 }
