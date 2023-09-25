@@ -55,8 +55,10 @@ Material, as buttons and presentations are designed so the user feel recognition
 The headings on all pages is in #64A0A0, except for on the sign up page where it is #F699CD since the background is black I want the heading to stand out.
 ![Color schem](assets/images/readme-colorscheme.webp)
 ### Typography
-League Spartan is selected in headings, navigation and buttons
-Montserrat  is selected as the main font in the running text.
+There are two fonts used:
+
+- League Spartan in headings, navigation and buttons
+- Montserrat  is selected as the main font in the running text.
 The combiantion of theese two fonts gives a serious but playful impression.
 Buttons and presentations are made in canva.com
 ### Imagery
@@ -151,10 +153,16 @@ F. Live-sessions
 - CSS3
 
 ### Frameworks, Libraries & Programs Used
-- Google Fonts - for the font families: Special Elite, Raleway & Cabin Sketch. San-serif was used as a default font.
-- Font Awesome - to add icons to the social links in the footer element.
-- GitPod - to creat my html files & styling sheet before pushing the project to Github.
+- Google Fonts - Font families:  League Spartan and Montserrat. San-serif was used as a default font.
+- Font Awesome -Icons to the social links in the footer element and hamburger icon in navigation bar for 
+  mobildevices
+- Code anywhere - In the begining of the project I used code anywhere but change to Git Pod.
+- GitPod - The html files & styling sheet before pushing the project to Github.
 - GitHub - to store my repository for submission.
-- Figma & Adobe Illustrator - were used to create mockups of the project prior to starting.
+- Canva.com - Designed images and presentations and saved as png-files
+- Adobe Photoshop - were used to convert png-files to Webp-file. 
 - Am I Responsive? - to ensure the project looked good across all devices.
-- Favicon - to provide the code & image for the icon in the tab bar.
+- 
+## Deployment
+I deployed the site to GitHub pages. The steps to deploy are as follows:
+The live version : https://camdah77.github.io/ArtStudio/

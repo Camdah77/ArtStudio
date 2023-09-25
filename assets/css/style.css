@@ -479,7 +479,7 @@ footer {
     letter-spacing: 2px;
     font-size: 16px;
     margin-bottom: 38vh;
-    margin-top: -27vh;
+    margin-top: -16vh;
 }
 
 /*Tutorial page*/
@@ -749,6 +749,12 @@ position: relative;
     align-items: center;
 }
 
+.cdhistory {
+    font-size: 26px;
+    line-height: 26px;
+    margin-top: -29vh;
+}
+
 /*Tutorial page: Heading above tutorialgallery*/
 .tutbox {
     margin-left: 4vw;
@@ -866,7 +872,8 @@ div.desc {
         flex-wrap: nowrap;
         flex-direction: row;
         align-items: center;
-        margin-left: 16vw;
+        margin-left: 4vw;
+        margin-top: 3vh;
     }
 
     /* Index:Resize Level of memberships when hover over images*/
@@ -928,8 +935,6 @@ img.soldart-last {
 .girlpowertext{
         margin-left: 39vw;
 }
-
-
    /*Tutorial page*/
     .tutbox {
         margin-top: 4vh;
