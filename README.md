@@ -33,7 +33,7 @@ To increase awareness around the creative process and show all benefits the crea
 The first goal is to attracts new user to sign up and become members. 
 The user should clearly understand what is being provided and should easly navigate on the page.  
 ### Business Strategy:
-![Level of memberships](/assets/images/membership.webp)
+![Level of memberships](assets/images/membership.webp)
 Art Studio is a fictive company but I want to show the commercial thought behind it anyway.
 With people signing up you can offer different memberships and It can therefore be a page that has room to grow in step with members.
 To attracts new members the site need to frequently upload classes, content and have other artist lifestories. 
