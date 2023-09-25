@@ -63,10 +63,12 @@ All images have been exported in adoble Photoshop to WEBP-format.
 No existing features. The page is made for the fictitious company Art Studio
 ### Navigation Bar
 ![Navigation bar: Home, Inspiration, Tutorial, Connect and about](assets/images/readme-Navbar.webp)
+
 The navigation bar is shown on all pages and are named so the user simpley know what to find under each page. 
 The site´s goal is to get sign up´s so there are "Join now"-links at every page.
 #### Landing Page:
 ![Landing page in four sections](assets/images/readme-landing.webp)
+
 A:
 I want to wake the visitor's curiosity so I choose a playful and colorful hero image  with the message:  "Free your mind - find your creative voice". 
 The round button "Start making Art" links to the sign up-page 
@@ -81,6 +83,7 @@ In the end of the section it is a clickable link to the sign-up page on the righ
 D:
 Last on the landing page the user can ses a picture of the creative mentor and a slideshow of sold artworks. As the site grows Art Studio can hightlight theire differents mentors here and also theire members.
 #### Inpspiration page
+
 The inspiration page has two section. 
 ![Inspiration page in two sections](assets/images/readme-inspiration.webp)
 A: 
@@ -90,9 +93,12 @@ B:
 In the photogallery I have added some of sold artwork. 
 As the amount of members are growing It is possible to use the inpiration page with artwork from members and theire sold pieces.
 #### Tutorial page
+
 The turtorial page should be a updated often with different free tutorials. 
 Here Art Studio has possibility to put tutorials from members as well. 
+
 ![Tutorial page will frequently be uploaded](assets/images/readme-tutorial.webp)
+
 A:
 The tool kit tutorial contains four images with a desription. This part can frequently be added with new tutorials. 
 Under the section I have added a link to the sign up -page. 
@@ -100,7 +106,9 @@ B:
 At the bottom of the tutorial page I added a video from YouTube- so the user can see a process of an artwork, as an inspiration. 
 In the windows there is a volum-controll and paus-function.
 #### Connect page
+
 ![A sign up form](assets/images/readme-connect.webp)
+
 The connect site is only containing one element: the form. 
 I did´nt add anything more here since the main focus should be the sign up. 
 A:
@@ -110,13 +118,17 @@ B:
 The signed up user comes to a welcome page , saying Welcome to Art Studio. 
 Here can Art Studio make an welcome site with an tutorial or a log-in page.  
 #### About
+
 ![About page with three images and presentation](assets/images/readme-aboutpage.webp)
+
 In the about page Art Studio has an introduction of the founders lifestory 
 A:
 Contain three images
 B:Text how I found the art and how important it became in my life, as an inspiration. 
 #### Footer 
+
 The footer contains three icons with links to Facebook, Instagram, You Tube
+
 ### The future for Art Studio
 As the amount of members grow the company can increase the functions:
 A. Set up payment solution
@@ -125,5 +137,6 @@ C  Member site so every member can upload and sell artworks
 D. Lifestory and gallery from artists
 E. Live chatbot
 F. Live-sessions
+
 ## Testing 
 ![W3 CSS ](assets/images/readme-w3css.webp)
