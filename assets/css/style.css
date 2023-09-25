@@ -390,7 +390,7 @@ footer {
     margin-right: 9vw;
   }
   .photogallery {
-    padding-bottom: 30vh;
+    padding-bottom: 36vh;
   }
   .phrow {
     margin: 8px -16px;
@@ -420,12 +420,12 @@ footer {
     padding: 19px;
     padding-bottom: 4vh;
     box-shadow: 20px 16px 20px 1px black;
-    width: 220px;
-    margin-left: 20px;
+    width: 260px;
+    margin-left: 2px;
   }
 
  .phcontent img {
-    width: 180px;
+    width: 226px;
 
  }
  .phcontent h3 {
@@ -435,7 +435,19 @@ footer {
     text-align: center;
 }
 .girlpowertext {
-     margin-top:-17vh;
+        margin-top: 37vh;
+        margin-left: 28vw;
+}
+
+.phcontent-last  {
+    width:260px;
+    margin-left: 2vw;
+
+}
+ img.soldart-last {
+    padding-bottom: 12vh;
+    margin-bottom: -48vh;
+    width: 260px;
 }
     
  .soldart-last {
@@ -558,7 +570,7 @@ position: relative;
         color: black;
         font-size: 22px;
         margin-top: 2vh;
-        margin-right: 13vw;
+        margin-right: 17vw;
     }
 
     #logotype {
@@ -609,6 +621,10 @@ position: relative;
         margin-top: 1vh;
         margin-right: 10vw;
         margin-bottom: 3vh;
+    }
+/*All pages:Link to signuppage*/
+    .linkjoinnow {
+    font-size: 20px;
     }
 
     /*All pages:headings at all pages +768 devices*/
@@ -676,14 +692,17 @@ position: relative;
     }
 
     /*Inspiration page: Photogallery*/
+  .aboutinspiration {
+    font-size: 24px;
+    }
+
     .photogallery {
-        padding-top: 10vh;
-        padding-bottom: 10vh;
+        padding-bottom: 20vh;
+        margin-bottom: 10vh;
      }
      .content {
         padding: 20px;
-     
-     }
+          }
      
      .phrow, .phrow > .phcol {
                 padding: 30px;
@@ -692,16 +711,27 @@ position: relative;
             float: left;
              width: 50%;   
         }
-        
+
+    .phcontent{
+        width: 300px;
+        margin-left: -12px;
+    }    
+
+    .phcontent img {
+        width: 256px;
+    }
+    .phcontent-last  {
+        width: 700px;
+        margin-left: 5vw;
+
+    }
      img.soldart-last {
+        width: 650px;
         padding-bottom: 12vh;
         margin-bottom: -48vh;
     }
     .girlpowertext {
-        margin-top:20vh;
-        padding: 200px;
-        font-size: 28px;
-        text-align: center;
+        margin-left: 6vw;
     }
     
 /*About page Text and image*/
@@ -883,25 +913,24 @@ div.desc {
         width:  1006px;
         color:#64A0A0;
     }
+/*Inspriation.html:photogallery*/
+.phcontent {
+    width: 700px;
+    margin-left: 117px;
+}
+.phcontent img {
+    width:680px;
+}
+img.soldart-last {
+    width:950px;
+    margin-left: 19vw;
+}
+.girlpowertext{
+        margin-left: 39vw;
+}
 
-    /* Inpsiration: photogallery */
-    .phcontent {
-        width: 100%;
-    }
 
-    .phcol {
-        float: left;
-        width: 25%;
-    }
-
-    /*Inspiration:Last photo and text Sold art*/
-
-    .girlpowertext {
-        margin-top: 18vh;
-        padding: 256px;
-    }
-
-    /*Tutorial page*/
+   /*Tutorial page*/
     .tutbox {
         margin-top: 4vh;
         margin-left: 5vw;
