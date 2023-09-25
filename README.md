@@ -44,6 +44,11 @@ Communication plan will focus on: frequently update with new online classes, suc
 Social channels will mainly be Facebook and instagram
 Directly email to those who sign up with automatic email
 ## Design
+
+### Wireframe
+![Overwiew of layout](/assets/images/readme-wireframe.png)
+To give a general overwiew of the layout and content I made a sketch in canva.com. 
+
 ### Colour Scheme:
 The page is filled with images that will inspires to create. The page's colors can therefore not take over the page's message. The combination of #64A0A0 and small fragment of #F699CD gives a pleasant impression that does not overwhelm the user.
 Material, as buttons and presentations are designed so the user feel recognition, no matter where on the site he/she is on. 
@@ -140,3 +145,16 @@ F. Live-sessions
 
 ## Testing 
 ![W3 CSS ](assets/images/readme-w3css.webp)
+
+### Main Languages Used
+- HTML5
+- CSS3
+
+### Frameworks, Libraries & Programs Used
+- Google Fonts - for the font families: Special Elite, Raleway & Cabin Sketch. San-serif was used as a default font.
+- Font Awesome - to add icons to the social links in the footer element.
+- GitPod - to creat my html files & styling sheet before pushing the project to Github.
+- GitHub - to store my repository for submission.
+- Figma & Adobe Illustrator - were used to create mockups of the project prior to starting.
+- Am I Responsive? - to ensure the project looked good across all devices.
+- Favicon - to provide the code & image for the icon in the tab bar.
