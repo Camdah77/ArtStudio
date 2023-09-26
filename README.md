@@ -219,7 +219,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
   Images, presentations are made in canva.com
   Hero image and image at the welcomepage is taken from canva´s image library.
 
-### 
+### Thank you
 
 - My mentor Lauren-Nicole Popich
   Lauren-Nicole has guided me in the right direction from start to finish. She has been extremely patient with me and has a great knowledge of coding. I am eternally grateful to her for this.
