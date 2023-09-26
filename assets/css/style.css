@@ -32,7 +32,7 @@ header {
     width: 100%;
     justify-content: space-between;
     align-items: baseline;
-    height: 15%;
+    height:113px;
     border-bottom: 6px double #64A0A0;
 }
 
@@ -571,6 +571,8 @@ position: relative;
         font-size: 22px;
         margin-top: 2vh;
         margin-right: 17vw;
+        background-color: transparent;
+
     }
 
     #logotype {
@@ -818,7 +820,8 @@ div.desc {
 
     /* Header */
     nav {
-        margin-right: -19vw;
+        margin-right: -5vw;
+        background-color: transparent;
     }
 
     #menu {

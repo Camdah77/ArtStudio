@@ -184,6 +184,10 @@ All pages were "Document checking complete. No errors or warning to show"
 Css-file is checking and complete.
 ![W3 CSS ](assets/images/readme-w3css.webp)
 
+- Lighthouse:
+![W3 CSS ](assets/images/readme-lighthouse.webp)
+
+All links, internal and external is checked and are working.
 
 ## Technologies Used
 
