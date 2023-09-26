@@ -921,6 +921,10 @@ div.desc {
         color:#64A0A0;
     }
 /*Inspriation.html:photogallery*/
+.photogallery{
+    margin-left: 6vw;
+}
+
 .phcontent {
     width: 700px;
     margin-left: 117px;
