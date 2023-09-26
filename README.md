@@ -168,6 +168,20 @@ As the amount of members grow the company can increase the functions:
 - Live-sessions
 
 ## Testing 
+
+### Validator Testing 
+
+W3C 
+All pages were "Document checking complete. No errors or warning to show"
+![Validation index.html](assets/images/readme-W31-index.webp)
+![Validation inspiration.html](assets/images/readme-W3-inspiration.webp)
+![Validation tutorial.html](assets/images/readme-W3-tutorial.webp)
+![Validation signup.html](assets/images/readme-W3-signup.webp)
+![Validation about.html](assets/images/readme-W3-about.webp)
+![Validation about.html](assets/images/readme-W3-welcome.webp)
+
+CSS 
+Css-file is checking and complete.
 ![W3 CSS ](assets/images/readme-w3css.webp)
 
 
@@ -181,7 +195,8 @@ As the amount of members grow the company can increase the functions:
 - Google Fonts - Font families:  League Spartan and Montserrat. San-serif was used as a default font.
 - Font Awesome -Icons to the social links in the footer element and hamburger icon in navigation bar for 
   mobil devices.
-- Code anywhere - In the begining of the project I used code anywhere but change to Git Pod because I found Git Pod easier to use
+- Code anywhere - In the begining of the project I used code anywhere but change to Git Pod because I found Git Pod 
+  easier to use
 - GitPod - The html files & styling sheet before pushing the project to Github.
 - GitHub - to store my repository for submission.
 - Canva.com - Designed images and presentations and saved as png-files
