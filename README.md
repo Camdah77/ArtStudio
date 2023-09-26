@@ -171,7 +171,7 @@ As the amount of members grow the company can increase the functions:
 
 ### Validator Testing 
 
-W3C 
+- HTML: 
 All pages were "Document checking complete. No errors or warning to show"
 ![Validation index.html](assets/images/readme-W31-index.webp)
 ![Validation inspiration.html](assets/images/readme-W3-inspiration.webp)
@@ -180,7 +180,7 @@ All pages were "Document checking complete. No errors or warning to show"
 ![Validation about.html](assets/images/readme-W3-about.webp)
 ![Validation about.html](assets/images/readme-W3-welcome.webp)
 
-CSS 
+- CSS: 
 Css-file is checking and complete.
 ![W3 CSS ](assets/images/readme-w3css.webp)
 
